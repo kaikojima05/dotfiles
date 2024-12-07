@@ -16,9 +16,8 @@ return {
         },
       })
 
-      -- delete default keymaps
       vim.api.nvim_del_keymap("n", "H")
       vim.api.nvim_del_keymap("n", "L")
-    end, -- end,
+    end,
   },
 }

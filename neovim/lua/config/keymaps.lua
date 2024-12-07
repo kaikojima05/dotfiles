@@ -8,7 +8,7 @@ local opts = { noremap = true, silent = true }
 
 -- mode insert
 keymap.set("i", "jj", "<ESC>", { silent = true })
-keymap.set("i", "kk", "<ESC>la", {})
+keymap.set("i", "<C-k>", "<ESC>la", {})
 keymap.set("i", ",", ",<Space>", {})
 
 -- mode normal
@@ -23,8 +23,6 @@ keymap.set("n", "vv", ":vsp<CR>", {})
 keymap.set("n", "vh", "<C-w>h", {})
 keymap.set("n", "vl", "<C-w>l", {})
 keymap.set("n", "le", "b", {})
-keymap.set("n", "<leader>j", "20j", {})
-keymap.set("n", "<leader>k", "20k", {})
 keymap.set("n", "<S-h>", "<S-h>", {})
 keymap.set("n", "<S-l>", "<S-l>", {})
 keymap.set("n", "<C-n>", "<C-d>", {})
@@ -48,18 +46,8 @@ keymap.set("n", "gn", "<cmd>Lspsaga rename<CR>")
 keymap.set("n", "ge", "<cmd>Lspsaga show_line_diagnostics<CR>")
 keymap.set("n", "[e", "<cmd>Lspsaga diagnostic_jump_next<CR>")
 keymap.set("n", "]e", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
-keymap.set(
-  "n",
-  "E",
-  "<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.diagnostic.severity.ERROR, max = vim.diagnostic.severity.ERROR }})<CR>",
-  { noremap = true, silent = true }
-)
-keymap.set(
-  "n",
-  "W",
-  "<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.diagnostic.severity.WARNING, max = vim.diagnostic.severity.WARNING }})<CR>",
-  { noremap = true, silent = true }
-)
+keymap.set("n", "E", "<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.diagnostic.severity.ERROR, max = vim.diagnostic.severity.ERROR }})<CR>", { noremap = true, silent = true })
+keymap.set("n", "W", "<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.diagnostic.severity.WARNING, max = vim.diagnostic.severity.WARNING }})<CR>", { noremap = true, silent = true })
 
 -- replace
 vim.api.nvim_set_keymap("n", "*", ":keepjumps normal! mi*`i<CR>", { noremap = true, silent = true })

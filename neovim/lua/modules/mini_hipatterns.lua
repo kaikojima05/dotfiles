@@ -1,6 +1,7 @@
 return {
   {
     "echasnovski/mini.hipatterns",
+    lazy = true,
     event = "BufReadPre",
     opts = {
       highlighters = {

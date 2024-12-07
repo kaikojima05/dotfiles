@@ -1,6 +1,7 @@
 return {
   {
     "echasnovski/mini.bracketed",
+    lazy = true,
     event = "BufReadPost",
     config = function()
       local bracketed = require("mini.bracketed")

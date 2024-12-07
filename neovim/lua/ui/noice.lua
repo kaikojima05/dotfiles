@@ -58,9 +58,17 @@ return {
       require("noice").setup({
         routes = opts.routes,
         commands = opts.commands,
+        config = true,
         notify = {
           enabled = true,
           view = "notify",
+        },
+        opts = {
+          lsp = {
+            signature = {
+              enabled = false,
+            },
+          },
         },
       })
     end,

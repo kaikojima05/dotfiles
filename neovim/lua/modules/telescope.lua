@@ -23,7 +23,6 @@ return {
         function()
           local builtin = require("telescope.builtin")
           builtin.find_files({
-            -- no_ignore = false,
             hidden = true,
           })
         end,
@@ -129,12 +128,9 @@ return {
       opts.extensions = {
         file_browser = {
           theme = "dropdown",
-          -- disables netrw and use telescope-file-browser in its place
           hijack_netrw = true,
           mappings = {
-            -- your custom insert mode mappings
             ["n"] = {
-              -- your custom normal mode mappings
               ["N"] = fb_actions.create,
               ["h"] = fb_actions.goto_parent_dir,
               ["/"] = function()

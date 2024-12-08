@@ -42,3 +42,7 @@ vim.opt.scrolloff = 10
 
 -- shell
 vim.opt.shell = "zsh"
+
+-- indent
+vim.opt.list = true
+vim.opt.listchars = { tab = "▸ ", trail = "·", space = "·" }

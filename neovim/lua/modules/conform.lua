@@ -13,6 +13,5 @@ return {
         json = { "prettier" },
       })
     end,
-    -- LazyVim の推奨では、`config` を使わない
   },
 }

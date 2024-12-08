@@ -65,6 +65,12 @@ return {
         },
       })
       vim.treesitter.language.register("markdown", "mdx")
+
+      vim.cmd [[
+        highlight clear CursorLine
+        highlight clear CursorLineNr
+        highlight clear TreesitterContext
+      ]]
     end,
   },
 }

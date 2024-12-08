@@ -94,3 +94,9 @@ vim.cmd([[
 
   command! CloseAllBuffer call CloseAllBuffer()
 ]])
+
+-- neotree alias
+keymap.set("n", "<leader>tn", ":Neotree toggle<CR>", { desc = "Toggle Neotree" })
+
+-- format
+keymap.set("n", "fmt", ":Format<CR>", { noremap = true, silent = true })

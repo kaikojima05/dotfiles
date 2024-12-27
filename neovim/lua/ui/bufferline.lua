@@ -1,8 +1,9 @@
 return {
   {
     "akinsho/bufferline.nvim",
+    lazy = true,
+    event = "UIEnter",
     depends = { "kyazdani42/nvim-web-devicons" },
-    event = "VeryLazy",
     config = function()
       require("bufferline").setup({
         options = {

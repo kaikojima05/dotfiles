@@ -51,10 +51,25 @@ keymap.set("n", "W", "<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.
 
 -- replace
 vim.api.nvim_set_keymap("n", "*", ":keepjumps normal! mi*`i<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>vy", "cgn", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>gn", "cgn", { noremap = true, silent = true })
 
 -- toggle fold
 vim.api.nvim_set_keymap("n", "<C-]>", "za", { noremap = true, silent = true })
+
+-- toggle terminal
+vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent = true })
+
+-- toggle buffer
+keymap.set("n", "<C-l>", ":bnext<CR>", { noremap = true, silent = true })
+keymap.set("n", "<C-h>", ":bprevious<CR>", { noremap = true, silent = true })
+
+-- delete buffer
+keymap.set("n", "<C-w>", ":bd<CR>", { noremap = true, silent = true })
+
+-- paste action related
+keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
+
+-- init backspace key
 
 ---// VimScript //---
 -- restart LSP Server
@@ -99,4 +114,4 @@ vim.cmd([[
 keymap.set("n", "<leader>tn", ":Neotree toggle<CR>", { desc = "Toggle Neotree" })
 
 -- format
-keymap.set("n", "fmt", ":Format<CR>", { noremap = true, silent = true })
+keymap.set("n", "co", ":Format<CR>", { noremap = true, silent = true })

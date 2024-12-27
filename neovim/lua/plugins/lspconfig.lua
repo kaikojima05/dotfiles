@@ -1,6 +1,7 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    lazy = false,
     dependencies = {
       "hrsh7th/cmp-nvim-lsp",
       {
@@ -12,11 +13,6 @@ return {
       },
     },
     opts = function()
-      on_attach = function(client)
-        client.server.capabilities.document_formatting = false
-        client.server.capabilities.document_range_formatting = false
-      end
-
       ---@class PluginLspOpts
       local ret = {
         diagnostics = {

@@ -1,6 +1,7 @@
 return {
   {
     "folke/noice.nvim",
+    lazy = true,
     event = "VeryLazy",
     opts = function(_, opts)
       opts.routes = opts.routes or {}

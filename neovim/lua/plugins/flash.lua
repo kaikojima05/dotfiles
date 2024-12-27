@@ -1,6 +1,8 @@
 return {
   {
     enabled = false,
+    lazy = true,
+    event = "BufRead",
     "folke/flash.nvim",
     ---@type Flash.Config
     opts = {

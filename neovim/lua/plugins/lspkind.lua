@@ -2,6 +2,7 @@ return {
   {
     "onsails/lspkind.nvim",
     opt = true,
+    event = "InsertEnter",
     config = function()
       require("lspkind").init({
         -- options: 'text', 'text_symbol', 'symbol_text', 'symbol'

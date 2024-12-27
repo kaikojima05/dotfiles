@@ -1,6 +1,8 @@
 return {
   {
     "lukas-reineke/indent-blankline.nvim",
+    lazy = true,
+    event = "UIEnter",
     main = "ibl",
     opts = {
       indent = {

@@ -29,14 +29,12 @@ require("lazy").setup({
     -- lsp languages
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
-    { import = "lazyvim.plugins.extras.lang.rust" },
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
-    { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     { import = "lazyvim.plugins.extras.ai.copilot" },
     -- import directory
-    { import = "modules" },
+    { import = "plugins" },
     { import = "ui" },
   },
   defaults = {
@@ -49,12 +47,18 @@ require("lazy").setup({
     rtp = {
       disabled_plugins = {
         "gzip",
+        "matchit",
+        "matchparen",
+        "netrwPlugin",
+        "shada_plugin",
+        "spellfile_plugin",
         "tarPlugin",
         "tohtml",
         "tutor",
         "zipPlugin",
+        "man",
+        "remote_plugins",
       },
     },
   },
 })
-

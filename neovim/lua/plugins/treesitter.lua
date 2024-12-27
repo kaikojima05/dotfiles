@@ -1,30 +1,22 @@
 return {
-  { "nvim-treesitter/playground", cmd = "TSPlaygroundToggle" },
+  { "nvim-treesitter/playground", cmd = "TSPlaygroundToggle", lazy = true },
 
   {
     "nvim-treesitter/nvim-treesitter",
+    lazy = true,
+    event = "BufReadPre",
     opts = {
       ensure_installed = {
-        "astro",
-        "cmake",
-        "cpp",
         "css",
-        "fish",
-        "gitignore",
         "go",
         "graphql",
-        "http",
-        "java",
         "php",
-        "rust",
         "scss",
         "sql",
         "javascript",
         "typescript",
         "tsx",
-        "svelte",
         "lua",
-        "c",
         "query",
         "vim",
         "vimdoc",
@@ -54,6 +46,14 @@ return {
           show_help = "?",
         },
       },
+
+      -- keymap
+      incremental_selection = {
+        enable = true,
+        keymaps = {
+          node_decremental = "<nop>",
+        },
+      },
     },
     config = function(_, opts)
       require("nvim-treesitter.configs").setup(opts)
@@ -66,11 +66,11 @@ return {
       })
       vim.treesitter.language.register("markdown", "mdx")
 
-      vim.cmd [[
+      vim.cmd([[
         highlight clear CursorLine
         highlight clear CursorLineNr
         highlight clear TreesitterContext
-      ]]
+      ]])
     end,
   },
 }

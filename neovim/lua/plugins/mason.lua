@@ -1,6 +1,7 @@
 return {
   {
     "williamboman/mason.nvim",
+    cmd = { "Mason", "MasonInstall", "MasonUpdate" },
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
         "stylua",

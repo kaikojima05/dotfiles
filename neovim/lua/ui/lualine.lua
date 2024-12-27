@@ -1,7 +1,8 @@
 return {
   {
     "nvim-lualine/lualine.nvim",
-    event = "VeryLazy",
+    lazy = true,
+    event = "UIEnter",
     opt = {
       options = {
         theme = "github-nvim-theme",

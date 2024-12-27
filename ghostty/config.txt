@@ -1,0 +1,18 @@
+# ghostty init command
+command = /opt/homebrew/bin/tmux 
+
+# ui
+title = " "
+font-size = 12
+window-padding-x = 10
+window-padding-y = 5
+window-padding-balance = true
+window-width = 200
+window-height = 70
+background-opacity = 0.9
+background-blur-radius = 30
+macos-titlebar-style = tabs
+
+# key bindings
+keybind = cmd+right=next_tab
+keybind = cmd+left=previous_tab

@@ -2,7 +2,7 @@ return {
   {
     "echasnovski/mini.hipatterns",
     lazy = true,
-    event = "BufReadPre",
+    event = "BufRead",
     opts = {
       highlighters = {
         hsl_color = {

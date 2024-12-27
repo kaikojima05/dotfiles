@@ -55,7 +55,7 @@ return {
     },
     opts = {
       size = 100,
-      open_mapping = [[<c-j>]],
+      open_mapping = [[<C-j>]],
       hide_numbers = true,
       shade_filetypes = {},
       shade_terminals = true,
@@ -75,5 +75,14 @@ return {
         },
       },
     },
+    config = function()
+      vim.api.nvim_create_user_command("CloudflareTunnel", function(opts)
+        -- default port
+        local port = opts.fargs[1] or "3000"
+        local cmd = string.format("cloudflared tunnel --url http://localhost:%s", port)
+
+        require("toggleterm.terminal").Terminal:new({ cmd = cmd, hidden = false, direction = "float" }):toggle()
+      end, { nargs = "?", complete = "file" })
+    end,
   },
 }

@@ -2,7 +2,7 @@ return {
   {
     "echasnovski/mini.bracketed",
     lazy = true,
-    event = "BufReadPost",
+    event = "InsertEnter",
     config = function()
       local bracketed = require("mini.bracketed")
       bracketed.setup({

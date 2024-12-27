@@ -1,7 +1,8 @@
 return {
   {
     "hrsh7th/nvim-cmp",
-    event = "InsertEnter",
+    lazy = true,
+    event = "BufRead",
     dependencies = { "hrsh7th/cmp-emoji" },
     config = function()
       local cmp = require("cmp")

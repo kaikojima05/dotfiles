@@ -57,6 +57,13 @@ return {
               },
             },
           },
+          prismals = {
+            settings = {
+              prisma = {
+                prismaFmtBinPath = "prisma-fmt",
+              },
+            },
+          },
           lua_ls = {
             settings = {
               Lua = {

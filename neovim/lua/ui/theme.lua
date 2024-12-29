@@ -1,17 +1,16 @@
 return {
   {
-    "projekt0n/github-nvim-theme",
-    name = "github-theme",
+    "craftzdog/solarized-osaka.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("github-theme").setup({
+      require("solarized-osaka").setup({
         options = {
           transparent = true,
         }
       })
 
-      vim.cmd("colorscheme github_dark")
+      vim.cmd("colorscheme solarized-osaka")
     end,
   },
 }

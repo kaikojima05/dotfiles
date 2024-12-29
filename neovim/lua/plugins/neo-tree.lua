@@ -16,4 +16,15 @@ return {
       },
     },
   },
+  config = function()
+    require("neo-tree").setup({
+      window = {
+        width = 35,
+        mappings = {
+          ["h"] = "close_node",
+          ["l"] = "open",
+        },
+      },
+    })
+  end,
 }

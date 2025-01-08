@@ -1,0 +1,43 @@
+[
+  /** insert mode */
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      /** normal mode に戻る */
+      "j j": "vim::NormalBefore",
+      /** insert mode の状態のまま1文字進む */
+      "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
+      /** ,（カンマ）の右に半角スペースを挿入する */
+      ",": ["workspace::SendKeystrokes", ", space"]
+    }
+  },
+  /** normal mode */
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      /** 行頭に移動 */
+      "space h": "editor::MoveToBeginningOfLine",
+      /** 行末に移動 */
+      "space l": "editor::MoveToEndOfLine",
+      /** 画面を縦に分割する */
+      "space v v": "pane::SplitVertical",
+      /** fold の開閉 */
+      "ctrl-[": "editor::ToggleFold",
+      /** error 箇所にジャンプ */
+      "E": "editor::GoToDiagnostic",
+      /** カーソルから右側を削除する */
+      "d l": "vim::DeleteToEndOfLine",
+      /** カーソルから左側を削除する */
+      "d h": "editor::DeleteToBeginningOfLine",
+      /** LSP のジャンプ機能 */
+      "r k": "editor::GoToDefinition",
+      /** ジャンプ元に戻る */
+      "b k": "pane::GoBack",
+      /** ファイル検索 */
+      "space f": [
+        "task::Spawn",
+        { "task_name": "File Finder", "reveal_target": "center" }
+      ]
+    }
+  }
+]

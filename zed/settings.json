@@ -7,16 +7,38 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_size": 12,
-  "buffer_font_size": 12,
+  /** 自動更新を有効にする */
+  "auto_update": true,
   "theme": {
     "mode": "system",
     "light": "JetBrains New Dark",
     "dark": "One Dark"
   },
+  /** vim mode を有効にする */
   "vim_mode": true,
-  /** font family を JetBrains にする */
-  "ui_font_family": "JetBrains Mono",
-  "terminal_font_family": "JetBrains Mono",
-  "buffer_font_family": "JetBrains Mono"
+  /** font-size */
+  "ui_font_size": 12,
+  "buffer_font_size": 12,
+  /** font family を JetBrainsMono Nerd Font にする */
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "terminal_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  /** スクロールバーを非表示にする */
+  "scrollbar": {
+    "show": "never"
+  },
+  /** ターミナルの設定 */
+  "terminal": {
+    /** ツールバーのパンくずを非表示にする */
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  /** インレイヒントを表示する */
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  }
 }

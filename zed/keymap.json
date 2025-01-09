@@ -4,9 +4,7 @@
     "context": "Editor && vim_mode == insert && !VimWaiting && !menu",
     "bindings": {
       /** insert mode の状態のまま1文字進む */
-      "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
-      /** ,（カンマ）の右に半角スペースを挿入する */
-      ",": ["workspace::SendKeystrokes", ", space"]
+      "ctrl-l": ["workspace::SendKeystrokes", "escape l a"]
     }
   },
   /** normal mode */

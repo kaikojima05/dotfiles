@@ -23,6 +23,8 @@
   "ui_font_family": "JetBrainsMono Nerd Font",
   "terminal_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
+  /** カーソルがある行からの相対的な行数を表示する */
+  "relative_line_numbers": true,
   /** スクロールバーを非表示にする */
   "scrollbar": {
     "show": "never"

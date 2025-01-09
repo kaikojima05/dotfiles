@@ -42,5 +42,15 @@
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
+  },
+  /** tsserver の path を global なものに設定する */
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "tsdk": "~/.nvm/versions/node/v21.7.3/lib/node_modules/typescript/lib"
+        }
+      }
+    }
   }
 }

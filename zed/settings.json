@@ -8,10 +8,11 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   /** 自動更新を有効にする */
+  "show_inline_completions": true,
   "auto_update": true,
   "theme": {
     "mode": "system",
-    "light": "JetBrains New Dark",
+    "light": "Solarized Dark",
     "dark": "One Dark"
   },
   /** vim mode を有効にする */
@@ -23,12 +24,10 @@
   "ui_font_family": "JetBrainsMono Nerd Font",
   "terminal_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
+  /** 非アクティブなパネルの透明度 */
+  "inactive_opacity": 0.7,
   /** カーソルがある行からの相対的な行数を表示する */
   "relative_line_numbers": true,
-  /** スクロールバーを非表示にする */
-  "scrollbar": {
-    "show": "never"
-  },
   /** ターミナルの設定 */
   "terminal": {
     /** ツールバーのパンくずを非表示にする */
@@ -44,12 +43,21 @@
     "show_other_hints": true
   },
   /** tsserver の path を global なものに設定する */
+  /** vtsls の設定は一時凌ぎなので、正規の方法が出てきた時に変更する */
   "lsp": {
     "vtsls": {
       "settings": {
         "typescript": {
           "tsdk": "~/.nvm/versions/node/v21.7.3/lib/node_modules/typescript/lib"
         }
+      }
+    },
+    "typos": {
+      "initialization_options": {
+        "config": "/Users/kaikojima/.config/nvim/spell/.typos.toml",
+        "path": "/opt/homebrew/bin/typos-lsp",
+        "diagnosticSeverity": "Error",
+        "trace.server": "off"
       }
     }
   }

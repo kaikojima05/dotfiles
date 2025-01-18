@@ -1,7 +1,7 @@
 [
   /** insert mode */
   {
-    "context": "Editor && vim_mode == insert && !VimWaiting && !menu",
+    "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       /** insert mode の状態のまま1文字進む */
       "ctrl-l": ["workspace::SendKeystrokes", "escape l a"]
@@ -9,7 +9,7 @@
   },
   /** normal mode */
   {
-    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !menu",
     "bindings": {
       /** 行頭に移動 */
       "space h": "editor::MoveToBeginningOfLine",
@@ -26,27 +26,31 @@
       /** カーソルから左側を削除する */
       "d h": "editor::DeleteToBeginningOfLine",
       /** LSP のジャンプ機能 */
-      "space r k": "editor::GoToDefinition",
+      "shift-r": "editor::GoToDefinition",
       /** ジャンプ元に戻る */
-      "space b k": "pane::GoBack",
+      "shift-b": "pane::GoBack",
       /** ファイル検索 */
-      "space f": [
-        "task::Spawn",
-        { "task_name": "File Finder", "reveal_target": "center" }
-      ],
+      "space f": ["workspace::SendKeystrokes", "cmd-p"],
       /** 単語検索 */
       "space r": ["workspace::SendKeystrokes", "cmd-shift-f"]
-      /** 単語検索時にマッチした単語を移動する */
     }
   },
+  /** visual mode */
+  {
+    "context": "Editor && vim_mode == visual && !menu"
+    "bindings": {
+      /** ペースト時にレジスタを汚さない */
+      "p": ["workspace::SendKeystrokes", "_dP"]
+    }
+  }
   /** 一致検索時の移動 */
   {
-    "context": "Editor",
+    "context": "Editor && vim_mode != insert",
     "bindings": {
       /** 戻る */
-      "p": "search::SelectPrevMatch",
+      "ctrl-p": "search::SelectPrevMatch",
       /** 進む */
-      "n": "search::SelectNextMatch"
+      "ctrl-n": "search::SelectNextMatch"
     }
   }
 ]

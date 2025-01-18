@@ -45,11 +45,4 @@
     //     }
     "shell": "system"
   },
-  {
-    "label": "File Finder",
-    "command": "zed \"$(fd --hidden --exclude '**/node_modules/**' --exclude '.DS_Store' --exclude '.git/**' | tv --preview 'bat -n -f -r:100 {0}')\"",
-    "hide": "always",
-    "allow_concurrent_runs": true,
-    "use_new_terminal": true
-  }
 ]

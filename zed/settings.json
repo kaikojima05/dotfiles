@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  /** フォーマットを手動実行にする */
+  "format_on_save": "off",
   /** 自動更新を有効にする */
   "show_inline_completions": true,
   "auto_update": true,

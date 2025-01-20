@@ -25,14 +25,6 @@
       "ctrl-[": "editor::ToggleFold",
       /** error 箇所にジャンプ */
       "E": "editor::GoToDiagnostic",
-      /** カーソルから右側を削除する */
-      "d l": "vim::DeleteToEndOfLine",
-      /** カーソルから左側を削除する */
-      "d h": "editor::DeleteToBeginningOfLine",
-      /** カーソルか右側を削除して insert mode に入る */
-      "c l": "vim::ChangeToEndOfLine",
-      /** カーソルか左側を削除して insert mode に入る */
-      "c h": ["workspace::SendKeystrokes", "c 0"],
       /** LSP のジャンプ機能 */
       "shift-r": "editor::GoToDefinition",
       /** ジャンプ元に戻る */
@@ -42,7 +34,9 @@
       /** 単語検索 */
       "space r": ["workspace::SendKeystrokes", "cmd-shift-f"],
       /** file tree を非表示にする */
-      "space e": ["workspace::SendKeystrokes", "cmd-b"]
+      "space e": ["workspace::SendKeystrokes", "cmd-b"],
+      /** フォーマットの実行 */
+      "space f m t": ["workspace::SendKeystrokes", "cmd-shift-i"]
     }
   },
   /** visual mode */

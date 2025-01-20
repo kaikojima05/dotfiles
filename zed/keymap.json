@@ -36,7 +36,7 @@
       /** file tree を非表示にする */
       "space e": ["workspace::SendKeystrokes", "cmd-b"],
       /** フォーマットの実行 */
-      "space f m t": ["workspace::SendKeystrokes", "cmd-shift-i"]
+      "ctrl-p ctrl-r ctrl-e": ["workspace::SendKeystrokes", "cmd-shift-i"]
     }
   },
   /** visual mode */

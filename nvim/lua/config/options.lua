@@ -1,55 +1,61 @@
--- Options are automatically loaded before lazy.nvim startup
--- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
--- Add any additional options here
---
--- encoding
+vim.g.mapleader = " "
+
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
--- rows
 vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.wrap = false
 
--- indent
+vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
-vim.opt.shiftwidth = 2
-vim.opt.breakindent = true
-
--- tab
-vim.opt.smarttab = true
-vim.opt.expandtab = true
-vim.opt.tabstop = 2
-
--- search keyword
-vim.opt.title = true
 vim.opt.hlsearch = true
-vim.opt.ignorecase = true
-vim.opt.inccommand = "split"
-
--- file managtement
 vim.opt.backup = false
-vim.opt.backupskip = { "/tmp/*", "/private/tmp/*" }
-
--- status line
-vim.opt.cmdheight = 1
-vim.opt.laststatus = 2
 vim.opt.showcmd = true
-
--- scroll
+vim.opt.cmdheight = 1
+vim.opt.laststatus = 3
+vim.opt.expandtab = true
 vim.opt.scrolloff = 10
+vim.opt.backupskip = { "/tmp/*", "/private/tmp/*" }
+vim.opt.inccommand = "split"
+vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
+vim.opt.smarttab = true
+vim.opt.breakindent = true
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.wrap = false -- No Wrap lines
+vim.opt.backspace = { "start", "eol", "indent" }
+vim.opt.path:append({ "**" }) -- Finding files - Search down into subfolders
+vim.opt.wildignore:append({ "*/node_modules/*" })
+vim.opt.splitbelow = true -- Put new windows below current
+vim.opt.splitright = true -- Put new windows right of current
+vim.opt.splitkeep = "cursor"
+vim.opt.mouse = "a"
+vim.opt.list = false
 
--- shell
-vim.opt.shell = "zsh"
+-- Undercurl
+vim.cmd([[let &t_Cs = "\e[4:3m"]])
+vim.cmd([[let &t_Ce = "\e[4:0m"]])
 
--- indent
-vim.opt.list = true
-vim.opt.listchars = { tab = "▸ ", trail = "·", space = "·" }
+-- Add asterisks in block comments
+-- vim.opt.formatoptions:append({ "r" })
 
--- disable default plugins
-vim.g.did_install_default_menus = 1
-vim.g.did_install_syntax_menu = 1
-vim.g.did_indent_on = 1
-vim.g.did_load_ftplugin = 1
-vim.g.skip_loading_mswin = 1
+vim.cmd([[au BufNewFile,BufRead *.astro setf astro]])
+vim.cmd([[au BufNewFile,BufRead Podfile setf ruby]])
+
+if vim.fn.has("nvim-0.8") == 1 then
+	vim.opt.cmdheight = 0
+end
+
+-- File types
+vim.filetype.add({
+	extension = {
+		mdx = "mdx",
+	},
+})
+
+vim.g.lazyvim_prettier_needs_config = true
+vim.g.lazyvim_picker = "telescope"
+vim.g.lazyvim_cmp = "blink.cmp"
+vim.g.autoformat = false
+
+vim.o.completeopt = "menu,menuone,noinsert"

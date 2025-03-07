@@ -8,14 +8,31 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   /** フォーマットを手動実行にする */
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
+  "ssh_connections": [
+    {
+      "host": "35.206.235.138",
+      "username": "kojimagai",
+      "projects": [
+        {
+          "paths": ["/var/www"]
+        }
+      ]
+    }
+  ],
+  /** フォントの設定 */
   "format_on_save": "off",
   /** 自動更新を有効にする */
   "show_inline_completions": true,
   "auto_update": true,
   "theme": {
     "mode": "system",
-    "light": "Solarized Dark",
-    "dark": "One Dark"
+    "light": "solarized-ro",
+    "dark": "solarized-ro"
   },
   /** vim mode を有効にする */
   "vim_mode": true,
@@ -23,9 +40,10 @@
   "ui_font_size": 12,
   "buffer_font_size": 12,
   /** font family を JetBrainsMono Nerd Font にする */
-  "ui_font_family": "JetBrainsMono Nerd Font",
-  "terminal_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "PlemolJP Console NF",
+  "terminal_font_family": "PlemolJP Console NF",
+  "buffer_font_family": "PlemolJP Console NF",
+  //"buffer_font_family": "JetBrainsMono Nerd Font",
   /** 非アクティブなパネルの透明度 */
   "inactive_opacity": 0.7,
   /** カーソルがある行からの相対的な行数を表示する */
@@ -39,24 +57,20 @@
   },
   /** インレイヒントを表示する */
   "inlay_hints": {
-    "enabled": true,
+    "enabled": false,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
   },
-  /** tsserver の path を global なものに設定する */
-  /** vtsls の設定は一時凌ぎなので、正規の方法が出てきた時に変更する */
   "lsp": {
-    "vtsls": {
+    "biome": {
       "settings": {
-        "typescript": {
-          "tsdk": "~/.nvm/versions/node/v21.7.3/lib/node_modules/typescript/lib"
-        }
+        "require_config_file": true
       }
     },
     "typos": {
       "initialization_options": {
-        "config": "/Users/kaikojima/.config/nvim/spell/.typos.toml",
+        "config": "/Users/kaikojima/.config/zed/.typos.toml",
         "path": "/opt/homebrew/bin/typos-lsp",
         "diagnosticSeverity": "Error",
         "trace.server": "off"

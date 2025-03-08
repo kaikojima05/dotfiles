@@ -45,7 +45,7 @@ return {
 		},
 		keys = {
 			{
-				"<leader>fP",
+				"<leader>TelescopeConfig",
 				function()
 					require("telescope.builtin").find_files({
 						cwd = require("lazy.core.config").options.root,
@@ -83,22 +83,6 @@ return {
 				desc = "Lists open buffers",
 			},
 			{
-				";t",
-				function()
-					local builtin = require("telescope.builtin")
-					builtin.help_tags()
-				end,
-				desc = "Lists available help tags and opens a new window with the relevant help info on <cr>",
-			},
-			{
-				";;",
-				function()
-					local builtin = require("telescope.builtin")
-					builtin.resume()
-				end,
-				desc = "Resume the previous telescope picker",
-			},
-			{
 				";e",
 				function()
 					local builtin = require("telescope.builtin")
@@ -107,7 +91,7 @@ return {
 				desc = "Lists Diagnostics for all open buffers or a specific buffer",
 			},
 			{
-				";s",
+				"<S-f>",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.treesitter()
@@ -170,8 +154,14 @@ return {
 						-- your custom insert mode mappings
 						["n"] = {
 							-- your custom normal mode mappings
-							["N"] = fb_actions.create,
+							["n"] = fb_actions.create,
+							["d"] = fb_actions.remove,
+							["r"] = fb_actions.rename,
+							["c"] = fb_actions.copy,
 							["h"] = fb_actions.goto_parent_dir,
+							["l"] = function()
+								vim.api.nvim_input("<CR>")
+							end,
 							["/"] = function()
 								vim.cmd("startinsert")
 							end,
@@ -220,7 +210,6 @@ return {
 
 	{
 		"saghen/blink.cmp",
-    enabled = false,
 		opts = {
 			completion = {
 				menu = {
@@ -233,5 +222,14 @@ return {
 				},
 			},
 		},
+	},
+
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+		cmd = "Neotree",
+		init = function()
+      -- デフォルトでは非表示にする
+			vim.api.nvim_create_augroup("Neotree_start_directory", { clear = true })
+		end,
 	},
 }

@@ -97,4 +97,4 @@ vim.cmd([[
 ]])
 
 -- format
-keymap.set("n", "<leader><leader>", ":Format<CR>", { noremap = true, silent = true })
+keymap.set("n", ":ff<CR>", ":Format<CR>", { noremap = true, silent = true })

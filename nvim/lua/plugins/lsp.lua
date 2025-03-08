@@ -136,6 +136,22 @@ return {
 						},
 					},
 				},
+        solargraph = {
+					cmd = { "solargraph", "stdio" },
+					filetypes = { "ruby" },
+					root_dir = function(...)
+						return require("lspconfig.util").root_pattern("Gemfile", ".git")(...)
+					end,
+					settings = {
+						solargraph = {
+							autoformat = false,
+							completion = true,
+							diagnostics = true,
+							formatting = false,
+							useBundler = false,
+						},
+					},
+				},
 			},
 			setup = {},
 		},

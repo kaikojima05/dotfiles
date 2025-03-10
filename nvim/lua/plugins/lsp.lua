@@ -11,7 +11,7 @@ return {
 				"shfmt",
 				"tailwindcss-language-server",
 				"typescript-language-server",
-        "prismals",
+        "prisma-language-server",
 				"solargraph",
 				"rubocop",
 				"erb-lint",

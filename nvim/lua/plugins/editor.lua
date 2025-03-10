@@ -54,7 +54,7 @@ return {
 				desc = "Find Plugin File",
 			},
 			{
-				";f",
+				",f",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.find_files({
@@ -65,7 +65,7 @@ return {
 				desc = "Lists files in your current working directory, respects .gitignore",
 			},
 			{
-				";r",
+				",r",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.live_grep({
@@ -83,7 +83,7 @@ return {
 				desc = "Lists open buffers",
 			},
 			{
-				";e",
+				",e",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.diagnostics()
@@ -91,7 +91,7 @@ return {
 				desc = "Lists Diagnostics for all open buffers or a specific buffer",
 			},
 			{
-				"<S-f>",
+				"<S-s>",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.treesitter()
@@ -226,6 +226,7 @@ return {
 
 	{
 		"nvim-neo-tree/neo-tree.nvim",
+    event = "VeryLazy",
 		cmd = "Neotree",
 		init = function()
       -- デフォルトでは非表示にする

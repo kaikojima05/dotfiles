@@ -11,6 +11,7 @@ return {
 				"shfmt",
 				"tailwindcss-language-server",
 				"typescript-language-server",
+        "prismals",
 				"solargraph",
 				"rubocop",
 				"erb-lint",
@@ -63,6 +64,7 @@ return {
 						},
 					},
 				},
+        prismals = {},
 				html = {},
 				yamlls = {
 					settings = {

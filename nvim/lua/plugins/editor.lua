@@ -54,7 +54,7 @@ return {
 				desc = "Find Plugin File",
 			},
 			{
-				",f",
+				"<leader>f",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.find_files({
@@ -65,7 +65,7 @@ return {
 				desc = "Lists files in your current working directory, respects .gitignore",
 			},
 			{
-				",r",
+				"<leader>r",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.live_grep({
@@ -83,7 +83,7 @@ return {
 				desc = "Lists open buffers",
 			},
 			{
-				",e",
+				"<leader>e",
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.diagnostics()
@@ -154,7 +154,7 @@ return {
 						-- your custom insert mode mappings
 						["n"] = {
 							-- your custom normal mode mappings
-							["n"] = fb_actions.create,
+							["a"] = fb_actions.create,
 							["d"] = fb_actions.remove,
 							["r"] = fb_actions.rename,
 							["c"] = fb_actions.copy,
@@ -226,10 +226,10 @@ return {
 
 	{
 		"nvim-neo-tree/neo-tree.nvim",
-    event = "VeryLazy",
+		event = "VeryLazy",
 		cmd = "Neotree",
 		init = function()
-      -- デフォルトでは非表示にする
+			-- デフォルトでは非表示にする
 			vim.api.nvim_create_augroup("Neotree_start_directory", { clear = true })
 		end,
 	},

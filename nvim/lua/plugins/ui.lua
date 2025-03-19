@@ -68,7 +68,7 @@ return {
 			options = {
 				mode = "buffers",
 				show_buffer_close_icons = false,
-				show_close_icon = false,
+				show_close_icon = true,
 			},
 		},
 	},

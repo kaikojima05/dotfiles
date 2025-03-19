@@ -16,10 +16,12 @@ vim.api.nvim_create_autocmd("FileType", {
 	end,
 })
 
-vim.api.nvim_create_user_command("Format", function()
+vim.api.nvim_create_user_command("Fm", function()
 	local conform = require("conform")
 	conform.format({
 		lsp_fallback = true,
 		async = true,
 	})
 end, {})
+
+vim.cmd("cnoreabbrev fm Fm")

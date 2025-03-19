@@ -2,7 +2,6 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap
-local opts = { noremap = true, silent = true }
 
 -- mode insert
 keymap.set("i", "jj", "<ESC>", { silent = true })
@@ -12,35 +11,48 @@ keymap.set("i", "<C-h>", "<ESC>i", {})
 -- mode normal
 keymap.set("n", "<Space>h", "^", {})
 keymap.set("n", "<Space>l", "$", {})
-keymap.set("n", "<leader>vv", ":vsp<CR>", {})
 keymap.set("n", "<S-h>", "<S-h>", {})
 keymap.set("n", "<S-l>", "<S-l>", {})
 keymap.set("n", "<C-n>", "<C-d>", {})
-
--- new tab
-keymap.set("n", "te", ":tabedit")
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
+keymap.set("n", "<C-h>", "<C-w>h", {})
+keymap.set("n", "<C-l>", "<C-w>l", {})
+keymap.set("n", "<C-j>", "<C-w>j", {})
+keymap.set("n", "<C-k>", "<C-w>k", {})
 
 -- lsp
-keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>")
-keymap.set("n", "lf", "<cmd>lua vim.lsp.buf.references()<CR>")
-keymap.set("n", "rk", "<cmd>lua vim.lsp.buf.definition()<CR>")
-keymap.set("n", "ga", "<cmd>lua vim.lsp.buf.code_action()<CR>")
-keymap.set("n", "gn", "<cmd>lua vim.lsp.buf.rename()<CR>")
-keymap.set("n", "ge", "<cmd>lua vim.diagnostic.open_float()<CR>")
-keymap.set("n", "[e", "<cmd>lua vim.diagnostic.goto_next()<CR>")
-keymap.set("n", "]e", "<cmd>lua vim.diagnostic.goto_prev()<CR>")
+keymap.set("n", "gh", "<cmd>Lspsaga hover_doc<CR>")
+keymap.set("n", "gr", function()
+	vim.lsp.buf.references()
+end, { noremap = true, silent = true })
+keymap.set("n", "gd", function()
+	vim.lsp.buf.definition()
+end, { noremap = true, silent = true })
+keymap.set("n", "gn", function()
+	vim.lsp.buf.rename()
+end, { noremap = true, silent = true })
+keymap.set("n", "go", function()
+	vim.diagnostic.open_float()
+end, { noremap = true, silent = true })
 keymap.set(
 	"n",
-	"E",
+	"[e",
+	"<cmd>lua vim.diagnostic.goto_next({severity = { min = vim.diagnostic.severity.ERROR, max = vim.diagnostic.severity.ERROR }})<CR>",
+	{ noremap = true, silent = true }
+)
+keymap.set(
+	"n",
+	"]e",
 	"<cmd>lua vim.diagnostic.goto_prev({severity = { min = vim.diagnostic.severity.ERROR, max = vim.diagnostic.severity.ERROR }})<CR>",
 	{ noremap = true, silent = true }
 )
-vim.keymap.set("n", "W", "<cmd>lua vim.diagnostic.goto_next()<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "[w", "<cmd>lua vim.diagnostic.goto_next()<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "]w", "<cmd>lua vim.diagnostic.goto_prev()<CR>", { noremap = true, silent = true })
 
 -- replace
 vim.api.nvim_set_keymap("n", "*", ":keepjumps normal! mi*`i<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>wd", "cgn", { noremap = true, silent = true })
+vim.keymap.set("x", "<leader>r", 'y:%s/<C-r><C-r>"//g<Left><Left>')
+vim.keymap.set("n", "<leader>r", 'yiw:%s/<C-r><C-r>"//g<Left><Left>')
 
 -- toggle fold
 vim.api.nvim_set_keymap("n", "<C-[>", "za", { noremap = true, silent = true })
@@ -49,8 +61,9 @@ vim.api.nvim_set_keymap("n", "<C-[>", "za", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent = true })
 
 -- toggle buffer
-keymap.set("n", "<C-l>", ":bnext<CR>", { noremap = true, silent = true })
-keymap.set("n", "<C-h>", ":bprevious<CR>", { noremap = true, silent = true })
+keymap.set("n", "tn", ":bnext<CR>", { noremap = true, silent = true })
+keymap.set("n", "tp", ":bprevious<CR>", { noremap = true, silent = true })
+
 
 -- paste action related
 keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
@@ -97,4 +110,4 @@ vim.cmd([[
 ]])
 
 -- format
-keymap.set("n", ":ff", ":Format<CR>", { noremap = true, silent = true })
+keymap.set("n", "LLLLL", ":Format<CR>", { noremap = true, silent = true })

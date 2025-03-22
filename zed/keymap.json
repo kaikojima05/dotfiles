@@ -30,9 +30,9 @@
       /** ジャンプ元に戻る */
       "shift-b": "pane::GoBack",
       /** ファイル検索 */
-      "; f": ["workspace::SendKeystrokes", "cmd-p"],
+      "space f": ["workspace::SendKeystrokes", "cmd-p"],
       /** 単語検索 */
-      "; r": ["workspace::SendKeystrokes", "cmd-shift-f"],
+      "space r": ["workspace::SendKeystrokes", "cmd-shift-f"],
       /** file tree を非表示にする */
       "space e": ["workspace::SendKeystrokes", "cmd-b"],
       /** フォーマットの実行 */

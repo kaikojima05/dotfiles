@@ -1,12 +1,10 @@
 return {
 	{
-		"craftzdog/solarized-osaka.nvim",
+		"projekt0n/github-nvim-theme",
 		lazy = true,
 		priority = 1000,
-		opts = function()
-			return {
-				transparent = true,
-			}
+		config = function()
+			vim.cmd("colorscheme github_dark")
 		end,
 	},
 }

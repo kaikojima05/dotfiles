@@ -25,3 +25,4 @@ vim.api.nvim_create_user_command("Fm", function()
 end, {})
 
 vim.cmd("cnoreabbrev fm Fm")
+vim.cmd("cnoreabbrev nt Neotree")

@@ -216,5 +216,12 @@ return {
 			-- デフォルトでは非表示にする
 			vim.api.nvim_create_augroup("Neotree_start_directory", { clear = true })
 		end,
+    keys = {
+      {
+        "nt",
+        "<cmd>Neotree toggle<CR>",
+        desc = "Toggle NeoTree",
+      }
+    }
 	},
 }

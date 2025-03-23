@@ -50,9 +50,6 @@ vim.keymap.set("n", "]w", "<cmd>lua vim.diagnostic.goto_prev()<CR>", { noremap =
 
 -- replace
 vim.api.nvim_set_keymap("n", "*", ":keepjumps normal! mi*`i<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>wd", "cgn", { noremap = true, silent = true })
-vim.keymap.set("x", "<leader>r", 'y:%s/<C-r><C-r>"//g<Left><Left>')
-vim.keymap.set("n", "<leader>r", 'yiw:%s/<C-r><C-r>"//g<Left><Left>')
 
 -- toggle fold
 vim.api.nvim_set_keymap("n", "<C-[>", "za", { noremap = true, silent = true })
@@ -63,7 +60,6 @@ vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent =
 -- toggle buffer
 keymap.set("n", "tn", ":bnext<CR>", { noremap = true, silent = true })
 keymap.set("n", "tp", ":bprevious<CR>", { noremap = true, silent = true })
-
 
 -- paste action related
 keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
@@ -108,6 +104,3 @@ vim.cmd([[
 
   command! CloseAllBuffer call CloseAllBuffer()
 ]])
-
--- format
-keymap.set("n", "LLLLL", ":Format<CR>", { noremap = true, silent = true })

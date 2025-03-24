@@ -20,7 +20,7 @@ keymap.set("n", "<C-j>", "<C-w>j", {})
 keymap.set("n", "<C-k>", "<C-w>k", {})
 
 -- lsp
-keymap.set("n", "gh", "<cmd>Lspsaga hover_doc<CR>")
+vim.keymap.set("n", "gh", vim.lsp.buf.hover, { silent = true, desc = "LSP Hover" })
 keymap.set("n", "gr", function()
 	vim.lsp.buf.references()
 end, { noremap = true, silent = true })

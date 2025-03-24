@@ -1,27 +1,32 @@
 return {
 	{
-		-- プラグイン指定
 		"folke/noice.nvim",
-		-- opts フィールドとして関数を渡す
 		opts = function(_, opts)
-			-- すでにある opts.routes = {} がなければ作る
 			opts.routes = opts.routes or {}
 
-			-- コマンドライン以外のイベントは全部スキップ
+			-- hover_doc に関する通知だけ通す。それ以外は全部スキップ
 			table.insert(opts.routes, {
 				filter = {
+					event = "notify",
+					-- hover_doc 以外を検出してスキップ
 					cond = function(details)
-						return details.event ~= "cmdline"
+						return not (details.opts and details.opts.title == "LspSaga hover_doc")
 					end,
 				},
 				opts = { skip = true },
 			})
+
+			-- hover_doc の表示を改善（LSPのドキュメント枠に枠線など）
+			opts.presets = opts.presets or {}
+			opts.presets.lsp_doc_border = true
 		end,
 	},
 
 	{
 		"rcarriga/nvim-notify",
-		enabled = false,
+		opts = {
+			timeout = 7000,
+		},
 	},
 
 	-- buffer line

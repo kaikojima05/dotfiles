@@ -11,7 +11,7 @@ return {
 				"shfmt",
 				"tailwindcss-language-server",
 				"typescript-language-server",
-        "prisma-language-server",
+				"prisma-language-server",
 				"solargraph",
 				"rubocop",
 				"erb-lint",
@@ -64,7 +64,10 @@ return {
 						},
 					},
 				},
-        prismals = {},
+				prismals = {},
+				solargraph = {
+					enabled = true,
+				},
 				html = {},
 				yamlls = {
 					settings = {
@@ -135,22 +138,6 @@ return {
 									continuation_indent_size = "2",
 								},
 							},
-						},
-					},
-				},
-        solargraph = {
-					cmd = { "solargraph", "stdio" },
-					filetypes = { "ruby" },
-					root_dir = function(...)
-						return require("lspconfig.util").root_pattern("Gemfile", ".git")(...)
-					end,
-					settings = {
-						solargraph = {
-							autoformat = false,
-							completion = true,
-							diagnostics = true,
-							formatting = false,
-							useBundler = false,
 						},
 					},
 				},

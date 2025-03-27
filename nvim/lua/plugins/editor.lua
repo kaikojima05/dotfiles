@@ -42,8 +42,28 @@ return {
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.find_files({
-						no_ignore = false,
+						no_ignore = true,
 						hidden = true,
+						find_command = {
+							"rg",
+							"--files",
+							"--hidden",
+							"--no-ignore",
+							"--glob",
+							"!node_modules/**",
+							"--glob",
+							"!vendor/**",
+							"--glob",
+							"!log/**",
+							"--glob",
+							"!tmp/**",
+							"--glob",
+							"!storage/**",
+							"--glob",
+							"!public/packs/**",
+							"--glob",
+							"!coverage/**",
+						},
 					})
 				end,
 				desc = "Lists files in your current working directory, respects .gitignore",
@@ -53,7 +73,26 @@ return {
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.live_grep({
-						additional_args = { "--hidden" },
+						additional_args = function()
+							return {
+								"--hidden",
+								"--no-ignore",
+								"--glob",
+								"!node_modules/**",
+								"--glob",
+								"!vendor/**",
+								"--glob",
+								"!log/**",
+								"--glob",
+								"!tmp/**",
+								"--glob",
+								"!storage/**",
+								"--glob",
+								"!public/packs/**",
+								"--glob",
+								"!coverage/**",
+							}
+						end,
 					})
 				end,
 				desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
@@ -216,12 +255,21 @@ return {
 			-- デフォルトでは非表示にする
 			vim.api.nvim_create_augroup("Neotree_start_directory", { clear = true })
 		end,
-    keys = {
-      {
-        "nt",
-        "<cmd>Neotree toggle<CR>",
-        desc = "Toggle NeoTree",
-      }
-    }
+		keys = {
+			{
+				"nt",
+				"<cmd>Neotree toggle<CR>",
+				desc = "Toggle NeoTree",
+			},
+		},
+		opts = {
+			filesystem = {
+				filtered_items = {
+					visible = true,
+					hide_dotfiles = false,
+					hide_gitignored = false,
+				},
+			},
+		},
 	},
 }

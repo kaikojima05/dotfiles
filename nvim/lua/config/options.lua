@@ -57,5 +57,7 @@ vim.g.lazyvim_prettier_needs_config = true
 vim.g.lazyvim_picker = "telescope"
 vim.g.lazyvim_cmp = "blink.cmp"
 vim.g.autoformat = false
+vim.g.lazyvim_ruby_lsp = "solargraph"
+vim.g.lazyvim_ruby_formatter = "rubocop"
 
 vim.o.completeopt = "menu,menuone,noinsert"

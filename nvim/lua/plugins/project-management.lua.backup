@@ -1,0 +1,397 @@
+return {
+  -- プロジェクト管理の核心プラグイン
+  {
+    "ahmedkhalf/project.nvim",
+    event = "VeryLazy",
+    config = function()
+      -- 安全な初期化チェック
+      local status_ok, project_nvim = pcall(require, "project_nvim")
+      if not status_ok then
+        vim.notify("project_nvim could not be loaded", vim.log.levels.WARN)
+        return
+      end
+      
+      project_nvim.setup({
+        -- プロジェクト検出方法（IntelliJ IDEA風）
+        detection_methods = { "lsp", "pattern" },
+        patterns = { 
+          ".git", "_darcs", ".hg", ".bzr", ".svn", 
+          "Makefile", "package.json", "pom.xml",
+          "build.gradle", "Cargo.toml", "go.mod",
+          "pyproject.toml", "requirements.txt"
+        },
+        -- プロジェクト変更時の自動アクション
+        show_hidden = false,
+        silent_chdir = true,
+        scope_chdir = 'global',
+        -- 除外パターン
+        exclude_dirs = { "*/node_modules/*", "*/.git/*", "*/target/*", "*/build/*" },
+        -- データファイルの場所
+        datapath = vim.fn.stdpath("data"),
+      })
+    end,
+  },
+
+  -- プロジェクト高速切り替えのためのTelescope統合
+  {
+    "nvim-telescope/telescope-project.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "ahmedkhalf/project.nvim" },
+    event = "VeryLazy",
+    config = function()
+      -- 安全な拡張読み込み
+      local telescope_ok, telescope = pcall(require, 'telescope')
+      if not telescope_ok then
+        vim.notify("telescope could not be loaded", vim.log.levels.WARN)
+        return
+      end
+      
+      telescope.load_extension('project')
+      
+      -- IntelliJ IDEA風のキーマッピング（最適化済み）
+      vim.keymap.set('n', '<C-S-O>', function()
+        if telescope.extensions and telescope.extensions.project then
+          telescope.extensions.project.project({
+            display_type = 'full',
+            theme = 'dropdown',
+            results_title = 'Projects',
+            prompt_title = 'Switch Project',
+          })
+        else
+          -- フォールバック: 通常のファイル検索
+          local builtin_ok, builtin = pcall(require, 'telescope.builtin')
+          if builtin_ok then
+            builtin.find_files({
+              cwd = vim.fn.expand('~/'),
+              find_command = {'find', '.', '-type', 'd', '-name', '.git', '-exec', 'dirname', '{}', ';'},
+              prompt_title = 'Find Projects'
+            })
+          else
+            vim.notify("Telescope not available", vim.log.levels.WARN)
+          end
+        end
+      end, { desc = "プロジェクト切り替え" })
+      
+      -- 最近使用したプロジェクト（パフォーマンス最適化）
+      vim.keymap.set('n', '<leader>pp', function()
+        if telescope.extensions and telescope.extensions.project then
+          telescope.extensions.project.project({
+            theme = 'dropdown',
+            results_title = 'Recent Projects',
+            prompt_title = 'Select Project',
+            layout_config = {
+              width = 0.5,
+              height = 0.4,
+            },
+          })
+        else
+          vim.notify("Project extension not available", vim.log.levels.WARN)
+        end
+      end, { desc = "最近のプロジェクト" })
+    end,
+  },
+
+  -- ファイルツリーの最適化（プロジェクト指向）
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons",
+      "MunifTanjim/nui.nvim",
+    },
+    config = function()
+      require("neo-tree").setup({
+        close_if_last_window = false,
+        popup_border_style = "rounded",
+        enable_git_status = true,
+        enable_diagnostics = true,
+        
+        -- IntelliJ IDEA風のプロジェクトビュー
+        default_component_configs = {
+          indent = {
+            indent_size = 2,
+            padding = 1,
+            with_markers = true,
+            indent_marker = "│",
+            last_indent_marker = "└",
+            highlight = "NeoTreeIndentMarker",
+            with_expanders = nil,
+            expander_collapsed = "",
+            expander_expanded = "",
+            expander_highlight = "NeoTreeExpander",
+          },
+          icon = {
+            folder_closed = "",
+            folder_open = "",
+            folder_empty = "ﰊ",
+            default = "*",
+            highlight = "NeoTreeFileIcon"
+          },
+          modified = {
+            symbol = "[+]",
+            highlight = "NeoTreeModified",
+          },
+          name = {
+            trailing_slash = false,
+            use_git_status_colors = true,
+            highlight = "NeoTreeFileName",
+          },
+          git_status = {
+            symbols = {
+              added     = "✚",
+              modified  = "",
+              deleted   = "✖",
+              renamed   = "",
+              untracked = "",
+              ignored   = "",
+              unstaged  = "",
+              staged    = "",
+              conflict  = "",
+            }
+          },
+        },
+        
+        -- ウィンドウ設定
+        window = {
+          position = "left",
+          width = 30,
+          mapping_options = {
+            noremap = true,
+            nowait = true,
+          },
+          mappings = {
+            ["<space>"] = { 
+              "toggle_node", 
+              nowait = false,
+            },
+            ["<2-LeftMouse>"] = "open",
+            ["<cr>"] = "open",
+            ["<esc>"] = "revert_preview",
+            ["P"] = { "toggle_preview", config = { use_float = true } },
+            ["l"] = "focus_preview",
+            ["S"] = "open_split",
+            ["s"] = "open_vsplit",
+            ["t"] = "open_tabnew",
+            ["w"] = "open_with_window_picker",
+            ["C"] = "close_node",
+            ["z"] = "close_all_nodes",
+            ["a"] = { 
+              "add",
+              config = {
+                show_path = "none"
+              }
+            },
+            ["A"] = "add_directory",
+            ["d"] = "delete",
+            ["r"] = "rename",
+            ["y"] = "copy_to_clipboard",
+            ["x"] = "cut_to_clipboard",
+            ["p"] = "paste_from_clipboard",
+            ["c"] = "copy",
+            ["m"] = "move",
+            ["q"] = "close_window",
+            ["R"] = "refresh",
+            ["?"] = "show_help",
+            ["<"] = "prev_source",
+            [">"] = "next_source",
+          }
+        },
+        
+        -- ファイルシステム設定
+        filesystem = {
+          filtered_items = {
+            visible = false,
+            hide_dotfiles = false,
+            hide_gitignored = true,
+            hide_hidden = true,
+            hide_by_name = {
+              "node_modules"
+            },
+            hide_by_pattern = {
+              "*.meta",
+              "*/src/*/tsconfig.json",
+            },
+            always_show = {
+              ".gitignored",
+              ".env",
+            },
+            never_show = {
+              ".DS_Store",
+              "thumbs.db"
+            },
+            never_show_by_pattern = {
+              ".null-ls_*",
+            },
+          },
+          follow_current_file = true,
+          group_empty_dirs = false,
+          hijack_netrw_behavior = "open_default",
+          use_libuv_file_watcher = false,
+          window = {
+            mappings = {
+              ["<bs>"] = "navigate_up",
+              ["."] = "set_root",
+              ["H"] = "toggle_hidden",
+              ["/"] = "fuzzy_finder",
+              ["D"] = "fuzzy_finder_directory",
+              ["#"] = "fuzzy_sorter",
+              ["f"] = "filter_on_submit",
+              ["<c-x>"] = "clear_filter",
+              ["[g"] = "prev_git_modified",
+              ["]g"] = "next_git_modified",
+            }
+          }
+        },
+        
+        -- Git統合
+        git_status = {
+          window = {
+            position = "float",
+            mappings = {
+              ["A"]  = "git_add_all",
+              ["gu"] = "git_unstage_file",
+              ["ga"] = "git_add_file",
+              ["gr"] = "git_revert_file",
+              ["gc"] = "git_commit",
+              ["gp"] = "git_push",
+              ["gg"] = "git_commit_and_push",
+            }
+          }
+        }
+      })
+      
+      -- IntelliJ IDEA風のキーマッピング
+      vim.keymap.set('n', '<C-1>', ':Neotree toggle<CR>', { desc = "プロジェクトツリー切り替え" })
+      vim.keymap.set('n', '<leader>e', ':Neotree focus<CR>', { desc = "プロジェクトツリーにフォーカス" })
+      vim.keymap.set('n', '<leader>ge', ':Neotree float git_status<CR>', { desc = "Git状態表示" })
+    end,
+  },
+
+  -- プロジェクト内の高速ファイル検索
+  {
+    "nvim-telescope/telescope.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      local telescope = require('telescope')
+      local actions = require('telescope.actions')
+      
+      telescope.setup({
+        defaults = {
+          prompt_prefix = " ",
+          selection_caret = " ",
+          path_display = { "truncate" },
+          file_ignore_patterns = {
+            "node_modules/.*",
+            "%.git/.*",
+            "target/.*",
+            "build/.*",
+            "dist/.*",
+            "%.class$",
+            "%.jar$",
+            "%.war$",
+          },
+          mappings = {
+            i = {
+              ["<C-n>"] = actions.cycle_history_next,
+              ["<C-p>"] = actions.cycle_history_prev,
+              ["<C-j>"] = actions.move_selection_next,
+              ["<C-k>"] = actions.move_selection_previous,
+              ["<C-c>"] = actions.close,
+              ["<Down>"] = actions.move_selection_next,
+              ["<Up>"] = actions.move_selection_previous,
+              ["<CR>"] = actions.select_default,
+              ["<C-x>"] = actions.select_horizontal,
+              ["<C-v>"] = actions.select_vertical,
+              ["<C-t>"] = actions.select_tab,
+              ["<C-u>"] = actions.preview_scrolling_up,
+              ["<C-d>"] = actions.preview_scrolling_down,
+            },
+            n = {
+              ["<esc>"] = actions.close,
+              ["<CR>"] = actions.select_default,
+              ["<C-x>"] = actions.select_horizontal,
+              ["<C-v>"] = actions.select_vertical,
+              ["<C-t>"] = actions.select_tab,
+              ["j"] = actions.move_selection_next,
+              ["k"] = actions.move_selection_previous,
+              ["H"] = actions.move_to_top,
+              ["M"] = actions.move_to_middle,
+              ["L"] = actions.move_to_bottom,
+              ["<Down>"] = actions.move_selection_next,
+              ["<Up>"] = actions.move_selection_previous,
+              ["gg"] = actions.move_to_top,
+              ["G"] = actions.move_to_bottom,
+              ["<C-u>"] = actions.preview_scrolling_up,
+              ["<C-d>"] = actions.preview_scrolling_down,
+            },
+          },
+        },
+        pickers = {
+          find_files = {
+            theme = "dropdown",
+            hidden = true,
+          },
+          live_grep = {
+            theme = "dropdown",
+          },
+          buffers = {
+            theme = "dropdown",
+            previewer = false,
+          },
+        },
+        extensions = {
+          project = {
+            base_dirs = {
+              '~/dev',
+              '~/projects',
+              '~/.config',
+            },
+            hidden_files = true,
+            theme = "dropdown",
+            order_by = "asc",
+            search_by = "title",
+            sync_with_nvim_tree = true,
+          }
+        }
+      })
+      
+      -- IntelliJ IDEA風のキーマッピング
+      vim.keymap.set('n', '<C-S-N>', ':Telescope find_files<CR>', { desc = "ファイル検索" })
+      vim.keymap.set('n', '<C-S-F>', ':Telescope live_grep<CR>', { desc = "プロジェクト内検索" })
+      vim.keymap.set('n', '<C-E>', ':Telescope buffers<CR>', { desc = "最近のファイル" })
+      vim.keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { desc = "ファイル検索" })
+      vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = "プロジェクト内検索" })
+      vim.keymap.set('n', '<leader>fb', ':Telescope buffers<CR>', { desc = "バッファ一覧" })
+      vim.keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', { desc = "ヘルプ検索" })
+    end,
+  },
+
+  -- プロジェクトセッション管理
+  {
+    "rmagatti/auto-session",
+    config = function()
+      require("auto-session").setup({
+        log_level = "error",
+        auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/" },
+        auto_session_use_git_branch = true,
+        auto_session_enable_last_session = true,
+        auto_save_enabled = true,
+        auto_restore_enabled = true,
+        auto_session_root_dir = vim.fn.stdpath('data').."/sessions/",
+        
+        -- プロジェクト切り替え時の自動セッション
+        session_lens = {
+          buftypes_to_ignore = {},
+          load_on_setup = true,
+          theme_conf = { border = true },
+          previewer = false,
+        },
+      })
+      
+      -- セッション管理のキーマッピング
+      vim.keymap.set('n', '<leader>ss', ':SessionSave<CR>', { desc = "セッション保存" })
+      vim.keymap.set('n', '<leader>sr', ':SessionRestore<CR>', { desc = "セッション復元" })
+      vim.keymap.set('n', '<leader>sd', ':SessionDelete<CR>', { desc = "セッション削除" })
+      vim.keymap.set('n', '<leader>sf', ':Telescope session<CR>', { desc = "セッション検索" })
+    end,
+  }
+}

@@ -1,0 +1,25 @@
+[default.extend-words]
+Navigatin = "Navigation"
+recieve = "receive"
+adress = "address"
+
+[files]
+# チェックから除外するファイル
+extend-exclude = [
+  "*.md",              # Markdown ファイルを除外
+  "logs/*",            # logs ディレクトリを除外
+  "node_modules/**/*", # node_modules 内をすべて除外
+]
+
+[default]
+# スペルミスの提案を行う（true: 自動修正なし, false: 修正を適用）
+check-only = true
+
+# ASCII のみを対象にする（true: 非 ASCII 文字を無視）
+ascii-only = false
+
+# 辞書を追加
+extend-dictionary = ["~/.config/typos/custom_dict.txt"]
+
+# 無視する単語リスト
+skip-words = ["foobar", "bazqux"]

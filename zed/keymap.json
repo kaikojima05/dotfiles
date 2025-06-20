@@ -1,0 +1,65 @@
+[
+  /** insert mode */
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      /** normal mode に戻る */
+      "ctrl-j ctrl-j": "vim::NormalBefore",
+      /** insert mode の状態のまま1文字進む */
+      "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
+      /** insert mode の状態のまま1文字戻る */
+      "ctrl-h": ["workspace::SendKeystrokes", "escape i"]
+    }
+  },
+  /** normal mode */
+  {
+    "context": "Editor && vim_mode == normal && !menu",
+    "bindings": {
+      /** 行頭に移動 */
+      "space h": ["workspace::SendKeystrokes", "^"],
+      /** 行末に移動 */
+      "space l": "editor::MoveToEndOfLine",
+      /** 画面を縦に分割する */
+      "space v v": "pane::SplitVertical",
+      /** fold の開閉 */
+      "ctrl-[": "editor::ToggleFold",
+      /** error 箇所にジャンプ */
+      "E": "editor::GoToDiagnostic",
+      /** LSP のジャンプ機能 */
+      "shift-r": "editor::GoToDefinition",
+      /** ジャンプ元に戻る */
+      "shift-b": "pane::GoBack",
+      /** ファイル検索 */
+      "space f": ["workspace::SendKeystrokes", "cmd-p"],
+      /** 単語検索 */
+      "space r": ["workspace::SendKeystrokes", "cmd-shift-f"],
+      /** file tree を非表示にする */
+      "space e": ["workspace::SendKeystrokes", "cmd-b"],
+      /** フォーマットの実行 */
+      "space space": ["workspace::SendKeystrokes", "cmd-shift-i"],
+      /** */
+      "ctrl-o": "editor::ToggleInlayHints"
+    }
+  },
+  /** visual mode */
+  {
+    "context": "Editor && vim_mode == visual && !menu",
+    "bindings": {
+      /** ペースト時にレジスタを汚さない */
+      "p": ["workspace::SendKeystrokes", "\" _ d shift-p"]
+    }
+  },
+  /** 一致検索時の移動 */
+  {
+    "context": "Editor && vim_mode != insert",
+    "bindings": {
+      /** 戻る */
+      "ctrl-p": "search::SelectPrevMatch",
+      /** 進む */
+      "ctrl-n": "search::SelectNextMatch"
+    }
+  },
+  {
+    "context": "autocomp"
+  }
+]

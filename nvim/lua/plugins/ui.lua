@@ -10,17 +10,21 @@ return {
 				},
 				opts = { skip = true },
 			})
+
 			local focused = true
+
 			vim.api.nvim_create_autocmd("FocusGained", {
 				callback = function()
 					focused = true
 				end,
 			})
+
 			vim.api.nvim_create_autocmd("FocusLost", {
 				callback = function()
 					focused = false
 				end,
 			})
+
 			table.insert(opts.routes, 1, {
 				filter = {
 					cond = function()
@@ -40,6 +44,22 @@ return {
 				},
 			}
 
+			opts.notify = {
+				-- notify のデフォルト設定
+				enabled = true,
+				view = "notify",
+			}
+
+			opts.views = {
+				notify = {
+					backend = "notify",
+					opts = {
+						stages = "slide",
+						fps = 60,
+					},
+				},
+			}
+
 			vim.api.nvim_create_autocmd("FileType", {
 				pattern = "markdown",
 				callback = function(event)
@@ -51,12 +71,19 @@ return {
 
 			opts.presets.lsp_doc_border = true
 		end,
+		dependencies = {
+			"rcarriga/nvim-notify",
+		},
 	},
 
 	{
 		"rcarriga/nvim-notify",
 		opts = {
-			timeout = 5000,
+			timeout = 3500,
+			stages = "slide",
+			top_down = true,
+			render = "default",
+			fps = 60,
 		},
 	},
 
@@ -73,49 +100,70 @@ return {
 		"akinsho/bufferline.nvim",
 		event = "VeryLazy",
 		keys = {
-			{ "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
-			{ "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
+			{ "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next buffer" },
+			{ "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev buffer" },
 		},
 		opts = {
 			options = {
-				mode = "tabs",
-				-- separator_style = "slant",
-				show_buffer_close_icons = false,
-				show_close_icon = false,
+				mode = "buffers", -- バッファを表示するように変更
+				separator_style = "slant", -- Slanted tabsスタイルを有効化
+				show_buffer_close_icons = true,
+				show_close_icon = true,
+				close_command = "bdelete! %d",
+				right_mouse_command = "bdelete! %d",
+				middle_mouse_command = nil,
+				close_icon = "×",
+				buffer_close_icon = "×",
+				modified_icon = "●",
+				left_trunc_marker = "",
+				right_trunc_marker = "",
+				diagnostics = "nvim_lsp", -- LSPの診断情報を表示
+				always_show_bufferline = true, -- 常に表示
+				offsets = {
+					{
+						filetype = "neo-tree",
+						text = "File Explorer",
+						text_align = "center",
+						separator = true,
+					},
+				},
 			},
 		},
 	},
 
-	-- filename
+	-- filename (無効化)
 	{
 		"b0o/incline.nvim",
-		dependencies = { "craftzdog/solarized-osaka.nvim" },
-		event = "BufReadPre",
-		priority = 1200,
-		config = function()
-			local colors = require("solarized-osaka.colors").setup()
-			require("incline").setup({
-				highlight = {
-					groups = {
-						InclineNormal = { guibg = colors.magenta500, guifg = colors.base04 },
-						InclineNormalNC = { guifg = colors.violet500, guibg = colors.base03 },
-					},
-				},
-				window = { margin = { vertical = 0, horizontal = 1 } },
-				hide = {
-					cursorline = true,
-				},
-				render = function(props)
-					local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
-					if vim.bo[props.buf].modified then
-						filename = "[+] " .. filename
-					end
+		enabled = false, -- incline.nvimを無効化
+	},
 
-					local icon, color = require("nvim-web-devicons").get_icon_color(filename)
-					return { { icon, guifg = color }, { " " }, { filename } }
-				end,
-			})
-		end,
+	-- gitsigns for showing git diff indicators
+	{
+		"lewis6991/gitsigns.nvim",
+		event = "LazyFile",
+		opts = {
+			signs = {
+				add = { text = "+" },
+				change = { text = "~" },
+				delete = { text = "_" },
+				topdelete = { text = "‾" },
+				changedelete = { text = "~" },
+				untracked = { text = "┆" },
+			},
+			signs_staged = {
+				add = { text = "+" },
+				change = { text = "~" },
+				delete = { text = "_" },
+				topdelete = { text = "‾" },
+				changedelete = { text = "~" },
+			},
+			signcolumn = true, -- Toggle with `:Gitsigns toggle_signs`
+			numhl = false, -- Toggle with `:Gitsigns toggle_numhl`
+			linehl = false, -- Toggle with `:Gitsigns toggle_linehl`
+			word_diff = false, -- Toggle with `:Gitsigns toggle_word_diff`
+			current_line_blame = false, -- Toggle with `:Gitsigns toggle_current_line_blame`
+			attach_to_untracked = true,
+		},
 	},
 
 	-- statusline
@@ -169,6 +217,33 @@ return {
 	        ╚═════╝ ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝     ╚══════╝
    ]],
 				},
+			},
+		},
+	},
+
+	-- Enhanced which-key configuration (v3 compatible)
+	{
+		"folke/which-key.nvim",
+		event = "VeryLazy",
+		opts = {
+			plugins = { spelling = true },
+			spec = {
+				{ "g", group = "+goto" },
+				{ "gz", group = "+surround" },
+				{ "]", group = "+next" },
+				{ "[", group = "+prev" },
+				{ "<leader><tab>", group = "+tabs" },
+				{ "<leader>b", group = "+buffer" },
+				{ "<leader>c", group = "+code" },
+				{ "<leader>f", group = "+file/find" },
+				{ "<leader>g", group = "+git" },
+				{ "<leader>gh", group = "+hunks" },
+				{ "<leader>q", group = "+quit/session" },
+				{ "<leader>s", group = "+search" },
+				{ "<leader>t", group = "+toggle" },
+				{ "<leader>u", group = "+ui" },
+				{ "<leader>w", group = "+windows" },
+				{ "<leader>x", group = "+diagnostics/quickfix" },
 			},
 		},
 	},

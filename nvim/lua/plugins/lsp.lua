@@ -64,6 +64,15 @@ return {
 					settings = {
 						yaml = {
 							keyOrdering = false,
+							schemas = require('schemastore').yaml.schemas(),
+						},
+					},
+				},
+				jsonls = {
+					settings = {
+						json = {
+							schemas = require('schemastore').json.schemas(),
+							validate = { enable = true },
 						},
 					},
 				},
@@ -152,5 +161,53 @@ return {
 				},
 			})
 		end,
+	},
+
+	-- symbols outline
+	{
+		"simrat39/symbols-outline.nvim",
+		cmd = "SymbolsOutline",
+		keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
+		opts = {
+			position = "right",
+		},
+	},
+
+	-- actions preview
+	{
+		"aznhe21/actions-preview.nvim",
+		dependencies = { "telescope.nvim" },
+		keys = {
+			{
+				"<leader>ca",
+				function()
+					require("actions-preview").code_actions()
+				end,
+				mode = { "v", "n" },
+				desc = "Code Action Preview",
+			},
+		},
+		opts = {
+			telescope = {
+				sorting_strategy = "ascending",
+				layout_strategy = "vertical",
+				layout_config = {
+					width = 0.8,
+					height = 0.9,
+					prompt_position = "top",
+					preview_cutoff = 20,
+					preview_height = function(_, _, max_lines)
+						return max_lines - 15
+					end,
+				},
+			},
+		},
+	},
+
+	-- Schema Store for JSON/YAML
+	{
+		"b0o/SchemaStore.nvim",
+		lazy = true,
+		version = false, -- last release is way too old
 	},
 }

@@ -11,14 +11,15 @@ return {
 				"css",
 				"fish",
 				"gitignore",
+				"go",
 				"graphql",
 				"http",
+				"java",
 				"php",
 				"rust",
 				"scss",
 				"sql",
-				"ruby",
-				"prisma",
+				"svelte",
 			},
 
 			-- matchup = {

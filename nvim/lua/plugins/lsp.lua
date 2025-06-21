@@ -1,6 +1,20 @@
 return {
-	-- Mason設定は project-detector.lua で統一管理
-	-- 重複を避けるためここでは設定しない
+	-- tools
+	{
+		"williamboman/mason.nvim",
+		opts = function(_, opts)
+			vim.list_extend(opts.ensure_installed, {
+				"stylua",
+				"selene",
+				"luacheck",
+				"shellcheck",
+				"shfmt",
+				"tailwindcss-language-server",
+				"typescript-language-server",
+				"css-lsp",
+			})
+		end,
+	},
 
 	-- lsp servers
 	{
@@ -45,7 +59,6 @@ return {
 						},
 					},
 				},
-        prismals = {},
 				html = {},
 				yamlls = {
 					settings = {
@@ -119,51 +132,8 @@ return {
 						},
 					},
 				},
-        solargraph = {
-					cmd = { "solargraph", "stdio" },
-					filetypes = { "ruby" },
-					root_dir = function(...)
-						return require("lspconfig.util").root_pattern("Gemfile", ".git")(...)
-					end,
-					settings = {
-						solargraph = {
-							autoformat = false,
-							completion = true,
-							diagnostics = true,
-							formatting = false,
-							useBundler = false,
-						},
-					},
-				},
 			},
-			setup = {
-				-- リファクタリング機能の強化設定
-				["*"] = function(server, opts)
-					-- 全てのLSPサーバーにリファクタリング機能を統合
-					if opts.capabilities then
-						opts.capabilities.textDocument = opts.capabilities.textDocument or {}
-						opts.capabilities.textDocument.rename = {
-							dynamicRegistration = true,
-							prepareSupport = true
-						}
-						opts.capabilities.textDocument.codeAction = {
-							dynamicRegistration = true,
-							codeActionLiteralSupport = {
-								codeActionKind = {
-									valueSet = {
-										"quickfix",
-										"refactor",
-										"refactor.extract",
-										"refactor.inline",
-										"refactor.rewrite",
-										"source.organizeImports"
-									}
-								}
-							}
-						}
-					end
-				end
-			},
+			setup = {},
 		},
 	},
 	{

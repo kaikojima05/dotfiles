@@ -18,13 +18,10 @@ require("lazy").setup({
 			"LazyVim/LazyVim",
 			import = "lazyvim.plugins",
 			opts = {
-				colorscheme = "github_dark",
+				colorscheme = "solarized-osaka",
 				news = {
 					lazyvim = true,
 					neovim = true,
-				},
-				indent = {
-					enabled = false,
 				},
 			},
 		},
@@ -34,18 +31,15 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.typescript" },
 		{ import = "lazyvim.plugins.extras.lang.json" },
 		-- { import = "lazyvim.plugins.extras.lang.markdown" },
-		-- { import = "lazyvim.plugins.extras.lang.rust" },
-		-- { import = "lazyvim.plugins.extras.lang.tailwind" }, -- Disabled due to cmp formatting conflicts
-		{ import = "lazyvim.plugins.extras.dap.core" },
-		{ import = "lazyvim.plugins.extras.lang.python" },
-		{ import = "lazyvim.plugins.extras.lang.go" },
+		{ import = "lazyvim.plugins.extras.lang.rust" },
+		{ import = "lazyvim.plugins.extras.lang.tailwind" },
+		-- { import = "lazyvim.plugins.extras.dap.core" },
 		-- { import = "lazyvim.plugins.extras.vscode" },
 		{ import = "lazyvim.plugins.extras.util.mini-hipatterns" },
 		-- { import = "lazyvim.plugins.extras.test.core" },
 		-- { import = "lazyvim.plugins.extras.coding.yanky" },
 		-- { import = "lazyvim.plugins.extras.editor.mini-files" },
-		{ import = "lazyvim.plugins.extras.util.project" },
-		{ import = "lazyvim.plugins.extras.lang.ruby" },
+		-- { import = "lazyvim.plugins.extras.util.project" },
 		{ import = "plugins" },
 	},
 	defaults = {

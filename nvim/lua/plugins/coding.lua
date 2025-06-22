@@ -1,4 +1,83 @@
 return {
+	-- CopilotChat.nvim - GitHub Copilot Chat integration
+	{
+		"CopilotC-Nvim/CopilotChat.nvim",
+		branch = "canary",
+		dependencies = {
+			"zbirenbaum/copilot.lua",
+			"nvim-lua/plenary.nvim",
+			"nvim-telescope/telescope.nvim",
+		},
+		cmd = {
+			"CopilotChat",
+			"CopilotChatToggle",
+			"CopilotChatOpen",
+			"CopilotChatClose",
+		},
+		keys = {
+			{
+				"<leader>ccc",
+				"<cmd>CopilotChat<cr>",
+				desc = "CopilotChat - Open chat",
+			},
+			{
+				"<leader>ccx",
+				"<cmd>CopilotChatClose<cr>",
+				desc = "CopilotChat - Close chat",
+			},
+			{
+				"<leader>cct",
+				"<cmd>CopilotChatToggle<cr>",
+				desc = "CopilotChat - Toggle chat",
+			},
+			{
+				"<leader>ccq",
+				function()
+					local input = vim.fn.input("Quick Chat: ")
+					if input ~= "" then
+						require("CopilotChat").ask(input, { selection = require("CopilotChat.select").buffer })
+					end
+				end,
+				desc = "CopilotChat - Quick chat with buffer context",
+			},
+			{
+				"<leader>ccp",
+				function()
+					local actions = require("CopilotChat.actions")
+					require("CopilotChat.integrations.telescope").pick(actions.prompt_actions())
+				end,
+				desc = "CopilotChat - Prompt actions",
+			},
+		},
+		opts = {
+			debug = false, -- Enable debug logging
+			-- Japanese prompts
+			prompts = {
+				Explain = {
+					prompt = "/COPILOT_EXPLAIN カーソル上のコードの説明を段落をつけて書いてください。",
+				},
+				Tests = {
+					prompt = "/COPILOT_TESTS カーソル上のコードの詳細な単体テスト関数を書いてください。",
+				},
+				Fix = {
+					prompt = "/COPILOT_FIX このコードには問題があります。バグを修正したコードに書き換えてください。",
+				},
+				Optimize = {
+					prompt = "/COPILOT_REFACTOR 選択したコードを最適化し、パフォーマンスと可読性を向上させてください。",
+				},
+				Docs = {
+					prompt = "/COPILOT_REFACTOR 選択したコードのドキュメントを書いてください。ドキュメントをコメントとして追加した元のコードを含むコードブロックで回答してください。使用するプログラミング言語に最も適したドキュメントスタイルを使用してください（例：JavaScriptのJSDoc、Pythonのdocstringsなど）",
+				},
+				FixDiagnostic = {
+					prompt = "ファイル内の次のような診断上の問題を解決してください：",
+					selection = function()
+						return require("CopilotChat.select").diagnostics()
+					end,
+				},
+			},
+		},
+	},
+
 	-- Incremental rename
 	{
 		"smjonas/inc-rename.nvim",
@@ -153,6 +232,28 @@ return {
 				"<leader>cv",
 				"<cmd>:VenvSelect<cr>",
 				desc = "Select VirtualEnv",
+			},
+		},
+	},
+
+	-- copilot
+	{
+		"zbirenbaum/copilot.lua",
+		opts = {
+			suggestion = {
+				auto_trigger = true,
+				keymap = {
+					accept = "<C-l>",
+					accept_word = "<M-l>",
+					accept_line = "<M-S-l>",
+					next = "<M-]>",
+					prev = "<M-[>",
+					dismiss = "<C-]>",
+				},
+			},
+			filetypes = {
+				markdown = true,
+				help = true,
 			},
 		},
 	},

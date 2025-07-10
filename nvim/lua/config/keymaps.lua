@@ -41,7 +41,15 @@ end, opts)
 
 -- LSP
 keymap.set("n", "gh", vim.lsp.buf.hover, { desc = "LSP Hover" })
-keymap.set("n", "go", vim.lsp.buf.definition, { desc = "LSP Go to Definition" })
+keymap.set("n", "go", function()
+	-- Force use vim.lsp.buf.definition (without telescope)
+	local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+	if #clients > 0 then
+		vim.lsp.buf.definition()
+	else
+		vim.notify("No LSP client attached", vim.log.levels.WARN)
+	end
+end, { desc = "LSP Go to Definition (native)" })
 
 -- Search optimization
 keymap.set("n", "n", "nzzzv", { desc = "Next search result (centered)" })

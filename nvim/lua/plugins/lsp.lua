@@ -2,8 +2,11 @@ return {
 	-- tools
 	{
 		"williamboman/mason.nvim",
-		opts = function(_, opts)
-			vim.list_extend(opts.ensure_installed, {
+		cmd = "Mason",
+		keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" } },
+		build = ":MasonUpdate",
+		opts = {
+			ensure_installed = {
 				"stylua",
 				"selene",
 				"luacheck",
@@ -12,7 +15,31 @@ return {
 				"tailwindcss-language-server",
 				"typescript-language-server",
 				"css-lsp",
-			})
+			},
+		},
+		config = function(_, opts)
+			require("mason").setup(opts)
+			local mr = require("mason-registry")
+			mr.refresh(function()
+				for _, tool in ipairs(opts.ensure_installed) do
+					local p = mr.get_package(tool)
+					if not p:is_installed() then
+						p:install()
+					end
+				end
+			end)
+		end,
+	},
+	{
+		"williamboman/mason-lspconfig.nvim",
+		dependencies = {
+			"williamboman/mason.nvim",
+		},
+		opts = {
+			automatic_installation = true,
+		},
+		config = function(_, opts)
+			require("mason-lspconfig").setup(opts)
 		end,
 	},
 
@@ -31,9 +58,9 @@ return {
 				},
 				tsserver = {
 					root_dir = function(...)
-						return require("lspconfig.util").root_pattern(".git")(...)
+						return require("lspconfig.util").root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")(...)
 					end,
-					single_file_support = false,
+					single_file_support = true,
 					settings = {
 						typescript = {
 							inlayHints = {
@@ -153,11 +180,27 @@ return {
 				{
 					"gd",
 					function()
-						-- DO NOT RESUSE WINDOW
-						require("telescope.builtin").lsp_definitions({ reuse_win = false })
+						-- Check if any LSP client supports textDocument/definition
+						local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+						local has_definition = false
+						
+						for _, client in ipairs(clients) do
+							if client.server_capabilities.definitionProvider then
+								has_definition = true
+								break
+							end
+						end
+						
+						if has_definition then
+							-- Use telescope if LSP supports definition
+							require("telescope.builtin").lsp_definitions({ reuse_win = false })
+						else
+							-- Fallback to vim's built-in definition jump
+							vim.notify("LSP definition not available, using fallback", vim.log.levels.WARN)
+							vim.cmd("normal! gd")
+						end
 					end,
 					desc = "Goto Definition",
-					has = "definition",
 				},
 			})
 		end,

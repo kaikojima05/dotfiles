@@ -21,7 +21,7 @@ return {
 				hsl_color = {
 					pattern = "hsl%(%d+,? %d+%%?,? %d+%%?%)",
 					group = function(_, match)
-						local utils = require("user.hsl")
+						local utils = require("solarized-osaka.hsl")
 						--- @type string, string, string
 						local nh, ns, nl = match:match("hsl%((%d+),? (%d+)%%?,? (%d+)%%?%)")
 						--- @type number?, number?, number?
@@ -83,7 +83,6 @@ return {
 				function()
 					local builtin = require("telescope.builtin")
 					builtin.live_grep({
-					additional_args = { "--hidden" },
 						additional_args = { "--hidden" },
 					})
 				end,
@@ -166,7 +165,7 @@ return {
 			local fb_actions = require("telescope").extensions.file_browser.actions
 
 			opts.defaults = vim.tbl_deep_extend("force", opts.defaults, {
-				-- 隠しファイルも表示する設定				wrap_results = true,
+				wrap_results = true,
 				layout_strategy = "horizontal",
 				layout_config = { prompt_position = "top" },
 				sorting_strategy = "ascending",
@@ -186,7 +185,6 @@ return {
 			}
 			opts.extensions = {
 				file_browser = {
-					hidden = true, -- 隠しファイルを表示
 					theme = "dropdown",
 					-- disables netrw and use telescope-file-browser in its place
 					hijack_netrw = false,
@@ -348,11 +346,6 @@ return {
 				"<leader>xX",
 				"<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
 				desc = "Buffer Diagnostics (Trouble)",
-			},
-			{
-				"<leader>xf",
-				"<cmd>Trouble diagnostics focus<cr>",
-				desc = "Focus Trouble diagnostics window",
 			},
 			{
 				"<leader>cs",

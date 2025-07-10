@@ -18,7 +18,7 @@ require("lazy").setup({
 			"LazyVim/LazyVim",
 			import = "lazyvim.plugins",
 			opts = {
-				colorscheme = "solarized-osaka",
+				colorscheme = "github_dark_default",
 				news = {
 					lazyvim = true,
 					neovim = true,
@@ -66,7 +66,7 @@ require("lazy").setup({
 				"gzip",
 				-- "matchit",
 				-- "matchparen",
-				"netrwPlugin",
+				-- "netrwPlugin", -- Let Snacks handle netrw replacement properly
 				"rplugin",
 				"tarPlugin",
 				"tohtml",

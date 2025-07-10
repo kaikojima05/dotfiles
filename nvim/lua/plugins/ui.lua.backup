@@ -90,7 +90,7 @@ return {
 	{
 		"snacks.nvim",
 		opts = {
-			indent = { enabled = false },
+			indent = { enabled = true },
 			input = { enabled = true },
 			notifier = { enabled = true },
 			picker = { enabled = true },
@@ -100,10 +100,9 @@ return {
 			toggle = { map = vim.keymap.set },
 			words = { enabled = true },
 			explorer = {
-				hidden = true,
-				show_hidden = true,
+				hidden = false,
+				show_hidden = false,
 			},
-		},
 		keys = {
 			{ "<leader>n", function()
 				local snacks = require("snacks")

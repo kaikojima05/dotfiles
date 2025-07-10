@@ -50,6 +50,9 @@ end
 vim.filetype.add({
 	extension = {
 		mdx = "mdx",
+		tf = "terraform",
+		tfvars = "terraform",
+		tfstate = "json",
 	},
 })
 

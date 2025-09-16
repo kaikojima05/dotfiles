@@ -13,6 +13,17 @@ return {
 				auto_open = false,
 				replace_netrw = false,
 			})
+
+			-- Configure picker for explorer to exclude only node_modules
+			opts.picker = vim.tbl_deep_extend("force", opts.picker or {}, {
+				sources = {
+					explorer = {
+						hidden = true,    -- show hidden files
+						ignored = true,   -- show git ignored files
+						exclude = { "node_modules", ".git", ".vscode" },  -- exclude only node_modules
+					}
+				}
+			})
 			return opts
 		end,
 		init = function()

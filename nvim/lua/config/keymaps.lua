@@ -27,10 +27,6 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 -- New tab
 keymap.set("n", "te", ":tabedit")
 
--- Move window
-keymap.set("n", "<C-h>", "<C-w>h")
-keymap.set("n", "<C-l>", "<C-w>l")
-
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
 	vim.diagnostic.goto_next()
@@ -68,10 +64,13 @@ keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
 
 keymap.set(
 	"n",
-	"-",
+	"<C-;>",
 	";",
 	{ desc = "セミコロンは telescope で使用しているので、別のキーを割り当てる" }
 )
+
+-- Fold toggle
+keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
 
 -- functions
 keymap.set("n", "<leader>r", function()

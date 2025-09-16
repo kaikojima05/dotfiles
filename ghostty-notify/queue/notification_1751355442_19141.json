@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751355442_19141",
+  "title": "🚨 User Input Required - multiagent",
+  "message": "Interactive prompt detected: │ Do you want to create ShowAnalysisPage.tsx?                                                                                              │",
+  "priority": 4,
+  "created_at": "2025-07-01T07:37:22Z",
+  "status": "queued"
+}

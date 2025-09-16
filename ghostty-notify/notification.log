@@ -1,0 +1,1020 @@
+[2025-06-27T08:02:12Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\necho 'Do you want to process this file? [y/n]'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:12Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Do you want to process this file? [y/n]'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:13Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nDo you want to process this file? [y/n]\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:13Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Are you sure you want to continue? (yes/no)'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:14Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nAre you sure you want to continue? (yes/no)\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:14Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'waiting for user input...'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:15Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nwaiting for user input...\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:16Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Press any key to continue'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:16Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nPress any key to continue\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:17Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Build failed. Continue anyway? [Y/n]'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:17Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nBuild failed. Continue anyway? [Y/n]\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:18Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Do you want to process this file? [y/n]'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:18Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nDo you want to process this file? [y/n]\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:19Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Are you sure you want to continue? (yes/no)'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:19Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nAre you sure you want to continue? (yes/no)\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:20Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'waiting for user input...'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:20Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nwaiting for user input...\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:21Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Press any key to continue'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:21Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nPress any key to continue\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:22Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\n➜  ~ echo 'Build failed. Continue anyway? [Y/n]'\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:23Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: ghostty-test-session\nBuild failed. Continue anyway? [Y/n]\n:link: Connect: `tmux attach-session -t ghostty-test-session`"
+}
+[2025-06-27T08:02:24Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: multiagent\n│ Do you want to proceed?                                                                                                    │\n:link: Connect: `tmux attach-session -t multiagent`"
+}
+[2025-06-27T08:02:31Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: multiagent\n│ Do you want to create PropertyCard.tsx?                                                                                  │\n:link: Connect: `tmux attach-session -t multiagent`"
+}
+[2025-06-27T08:02:44Z] SUCCESS: {
+  "text": ":rotating_light: User Input Required\nSession: multiagent\n│ Do you want to create index.ts?                                                                                          │\n:link: Connect: `tmux attach-session -t multiagent`"
+}
+[2025-06-27T08:06:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:06:02Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create TestimonialCard.tsx?                                                                               │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:06:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:07:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:07:34Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create page.tsx?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:07:37Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:07:53Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.ts?                                                                              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:07:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                                  │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:08:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:08:31Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create lib-structure-proposal.md?                                                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:08:37Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:08:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:08:54Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:09:24Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:09:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                                                               │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:09:40Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                                                               │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:09:43Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:11Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:17Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:18Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:29Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:37Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:10:49Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:11Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:24Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:32Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:35Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to next.config.mjs?                                   │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:11:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:12:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:13:51Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:13:54Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:14:29Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:14:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:14:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to api.ts?                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:14:45Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:15:18Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:16:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:16:32Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create page.tsx?                                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:16:51Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:17:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:17:29Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:19:24Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:19:41Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:23:45Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:23:51Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:15Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:18Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:26Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:24:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:25:10Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:10Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:34Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:53Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:27:56Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:06Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:06Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:14Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.development.ts?                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:15Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:22Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:28:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.development.ts?                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:27Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:34Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to api.ts?                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create posts.ts?                                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:29:56Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:14Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.ts?                                        │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:14Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to page.tsx?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:28Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:30:43Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:31:05Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:32:08Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:32:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to route.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:32:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:33:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:33:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to posts.ts?                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:33:52Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T08:34:17Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:24:56Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:24:57Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:25:23Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:25:41Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:25:51Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to api.ts?                                           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:29:20Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:29:30Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:30:14Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:30:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:32:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-27T09:32:51Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:22:36Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:22:52Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:23:17Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:23:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:24:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:25:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:26:15Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:26:23Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:26:26Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:26:41Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:49:31Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.ts?                                        │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:49:59Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-28T02:50:48Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:28:45Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:29:10Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:29:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:29:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:29:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:29:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:30:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:30:07Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:30:30Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:30:36Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:31:10Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:31:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:31:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:32:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.ts?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:32:13Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:33:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:33:52Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:34:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:34:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:36:28Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T05:44:37Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:01:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:01:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create posts.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:01:46Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:02:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:02:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:02:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:03:05Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:40:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:16Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:23Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to posts.graphql?                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:28Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:45:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:46:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:46:31Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:51:08Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:54:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:55:27Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:55:43Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to next.config.mjs?                                  │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:55:49Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create graphql.d.ts?                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:55:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:56:04Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:56:07Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:56:16Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:56:28Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:57:08Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T06:57:43Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:01:17Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:01:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to next.config.mjs?                                  │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:02:36Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:02:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:03:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.ts?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:03:20Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:05:02Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:05:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:07:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\ncontinue…\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:07:22Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\ncontinue…\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:08:36Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\ncontinue…\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:08:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\ncontinue…\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:11:59Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:12:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:12:29Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:12:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:12:40Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:12:49Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:02Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:07Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:15Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:23Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:31Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:34Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create base.graphql?                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:13:48Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to api.ts?                                           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:14:10Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to wordpress.ts?                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:14:16Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:14:50Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:15:13Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to root.ts?                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:33:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:34:36Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to config.development.ts?                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:35:46Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:57:04Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create worker3_done.txt?                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:58:03Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:58:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:58:46Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-29T07:58:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:02:30Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:03:53Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:04:08Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ProductCard.tsx?                                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:04:16Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.tsx?                                                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:05:18Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create product-interface-draft.ts?                                                     │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:05:49Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ShowProductPage-implementation-plan.md?                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:07:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:08:31Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ShowProductPage.tsx?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:10:25Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ShowProductPage.tsx?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:10:56Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:10:59Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:11:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                            │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:28:23Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:29:15Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ProductDetail.tsx?                                                              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:29:46Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:31:42Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ProductDetail.tsx?                                                   │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:32:01Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ProductDetail.tsx?                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-06-30T17:32:04Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ProductDetail.tsx?                                                   │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:34:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:34:38Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                                                                                                    │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:35:12Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create Phone.tsx?                                                                                                         │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:36:47Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create analysisTable.tsx?                                                                                                 │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:06Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                                                              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:19Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to index.tsx?                                                                                              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:22Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create ShowAnalysisPage.tsx?                                                                                              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:49Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to analysisTable.tsx?                                                                                      │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:53Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to analysisTable.tsx?              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:37:56Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to create index.tsx?                                 │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:38:06Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to analysisTable.tsx?              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:38:58Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to analysisTable.tsx?              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:39:04Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to analysisTable.tsx?              │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:39:39Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to proceed?                                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:41:21Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ShowAnalysisPage.tsx?           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:43:09Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ShowAnalysisPage.tsx?           │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:46:14Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to def.tsx?                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T07:46:33Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to routes.tsx?                       │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T10:44:24Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to def.tsx?                          │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T10:44:55Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ShowAnalysisPage.tsx?             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}
+[2025-07-01T10:45:07Z] SUCCESS: {
+  "text": ":rotating_light: *USER INPUT REQUIRED* :rotating_light:\n\n*Session:* `multiagent`\n\n:speech_balloon: *Prompt Detected:*\n```\nDo you want to make this edit to ShowAnalysisPage.tsx?             │\n```\n\n:link: *Connect Command:*\n`tmux attach-session -t multiagent`",
+  "mrkdwn": true
+}

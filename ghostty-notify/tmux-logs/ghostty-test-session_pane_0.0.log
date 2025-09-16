@@ -1,0 +1,52 @@
+echo 'Do you want to process this file? [y/n]'
+➜  ~ echo 'Do you want to process this file? [y/n]'
+Do you want to process this file? [y/n]
+➜  ~ echo 'Are you sure you want to continue? (yes/no)'
+Are you sure you want to continue? (yes/no)
+➜  ~ echo 'waiting for user input...'
+waiting for user input...
+➜  ~ echo 'Press any key to continue'
+Press any key to continue
+➜  ~ echo 'Build failed. Continue anyway? [Y/n]'
+Build failed. Continue anyway? [Y/n]
+➜  ~ echo 'Do you want to process this file? [y/n]'
+Do you want to process this file? [y/n]
+➜  ~ echo 'Are you sure you want to continue? (yes/no)'
+Are you sure you want to continue? (yes/no)
+➜  ~ echo 'waiting for user input...'
+waiting for user input...
+➜  ~ echo 'Press any key to continue'
+Press any key to continue
+➜  ~ echo 'Build failed. Continue anyway? [Y/n]'
+Build failed. Continue anyway? [Y/n]
+➜  ~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751011338_90231",
+  "title": "🚨 User Input Required - ghostty-test-session",
+  "message": "Interactive prompt detected: ➜  ~ echo 'Are you sure you want to continue? (yes/no)'",
+  "priority": 4,
+  "created_at": "2025-06-27T08:02:18Z",
+  "status": "queued"
+}

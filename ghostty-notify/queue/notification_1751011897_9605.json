@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751011897_9605",
+  "title": "🚨 User Input Required - multiagent",
+  "message": "Interactive prompt detected: │ Do you want to make this edit to next.config.mjs?                                   │",
+  "priority": 4,
+  "created_at": "2025-06-27T08:11:37Z",
+  "status": "queued"
+}

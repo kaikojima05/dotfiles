@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751304721_19141",
+  "title": "🚨 User Input Required - multiagent",
+  "message": "Interactive prompt detected: │ Do you want to make this edit to ProductDetail.tsx?                                                    │",
+  "priority": 4,
+  "created_at": "2025-06-30T17:32:01Z",
+  "status": "queued"
+}

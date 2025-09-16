@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751016351_9605",
+  "title": "🚨 User Input Required - multiagent",
+  "message": "Interactive prompt detected: │ Do you want to make this edit to api.ts?                                           │",
+  "priority": 4,
+  "created_at": "2025-06-27T09:25:51Z",
+  "status": "queued"
+}

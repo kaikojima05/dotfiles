@@ -1,0 +1,52 @@
+
+  # 2. jq を使って発話速度 (speedScale) を上書き
+  local modified_query
+  modified_query=$(echo "${audio_query}" | jq ".speedScale = ${speed}")
+
+  # 3. 変更したクエリで音声(WAV)を合成
+  curl -s -X POST "http://127.0.0.1:50021/synthesis?speaker=${speaker_id}" \
+    -H "Content-Type: application/json" \
+    -d "${modified_query}" \
+    -o "$tmp_file"
+
+  # 4. ファイルが正常に生成されたか確認してから再生
+  if [ -s "$tmp_file" ]; then
+    "$player_cmd" "$tmp_file"
+  else
+    echo "エラー: 音声ファイルの生成に失敗しました。" >&2
+    return 1
+  fi
+}
+➜  tmux git:(master) ✗ vi ~/.zshrc
+➜  tmux git:(master) ✗ vi ~/.config/ghostty
+➜  tmux git:(master) ✗ vi ~/.config/ghostty
+➜  tmux git:(master) ✗ vi ~/.config/ghostty
+➜  tmux git:(master) ✗ vi
+➜  tmux git:(master) ✗ echo $TERM
+xterm-256color
+➜  tmux git:(master) ✗ tmux source-file ~/.tmux.conf
+
+'~/.config/tmux/plugins/tpm/tpm' returned 127
+➜  tmux git:(master) ✗ ls -l ~/.config/tmux/plugins/tpm/tpm
+
+ls: /Users/kaikojima/.config/tmux/plugins/tpm/tpm: No such file or directory
+➜  tmux git:(master) ✗ cd ~/.tmux/plugins/
+cd: no such file or directory: /Users/kaikojima/.tmux/plugins/
+➜  tmux git:(master) ✗ cd ~/.tmux
+cd: no such file or directory: /Users/kaikojima/.tmux
+➜  tmux git:(master) ✗ git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+
+Cloning into '/Users/kaikojima/.config/tmux/plugins/tpm'...
+remote: Enumerating objects: 1013, done.
+remote: Counting objects: 100% (385/385), done.
+remote: Compressing objects: 100% (87/87), done.
+remote: Total 1013 (delta 314), reused 298 (delta 298), pack-reused 628 (from 1)
+Receiving objects: 100% (1013/1013), 207.04 KiB | 614.00 KiB/s, done.
+Resolving deltas: 100% (666/666), done.
+➜  tmux git:(master) ✗ chmod +x ~/.config/tmux/plugins/tpm/tpm
+
+➜  tmux git:(master) ✗ tmux source-file ~/.tmux.conf
+
+➜  tmux git:(master) ✗ echo $TERM
+xterm-256color
+➜  tmux git:(master) ✗

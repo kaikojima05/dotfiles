@@ -1,0 +1,52 @@
+  ⎿  total 32
+     drwxr-xr-x@  7 kaikojima  staff    224 Jun 27 07:27 .
+     drwxr-xr-x@ 13 kaikojima  staff    416 Jun 27 07:26 ..
+     … +5 lines (ctrl+r to expand)
+
+⏺ 🎉 整理完了！
+
+  📁 クリーンな構造
+
+  tmux-notification-system/           # 新しいメインディレクトリ
+  ├── start_monitoring.sh            # 制御スクリプト
+  ├── core/
+  │   ├── tmux_monitor.sh            # 監視エンジン
+  │   └── slack_sender.sh            # 通知送信
+  ├── config/
+  │   └── priority_rules.json        # 設定ファイル
+  └── README.md                      # 使用方法
+
+  🎯 使用方法
+
+  # 新しいディレクトリに移動
+  cd tmux-notification-system/
+
+  # 停止コマンド
+  ./start_monitoring.sh stop
+
+  # 起動
+  export SLACK_WEBHOOK_URL="your_webhook"
+  ./start_monitoring.sh start
+
+  # 状態確認
+  ./start_monitoring.sh status
+
+  🗑️ 削除された不要ファイル
+
+  - pattern-a/ (未使用のコマンドラッパー)
+  - pattern-b/ (複雑なAIシステム)
+  - common/ (重複ファイル多数)
+  - docs/ (空ディレクトリ)
+  - 設定ファイル類の重複
+
+  核心機能のみ残した、シンプルで高性能なシステムが完成しました！
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ > じゃあサーバー停止して。                                                                                                                                                                        │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  ⏵⏵ auto-accept edits on (shift+tab to cycle)                                                                                                                 Context left until auto-compact: 24%
+
+
+
+
+

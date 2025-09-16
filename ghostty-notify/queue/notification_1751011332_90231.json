@@ -1,0 +1,8 @@
+{
+  "id": "notification_1751011332_90231",
+  "title": "🚨 User Input Required - ghostty-test-session",
+  "message": "Interactive prompt detected: Do you want to process this file? [y/n]",
+  "priority": 4,
+  "created_at": "2025-06-27T08:02:12Z",
+  "status": "queued"
+}

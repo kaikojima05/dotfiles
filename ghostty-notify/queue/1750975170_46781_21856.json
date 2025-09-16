@@ -1,0 +1,9 @@
+{
+  "id": "1750975170_46781_21856",
+  "title": "🚨 User Input Required - multiagent",
+  "message": "Interactive prompt detected: │   - echo Do you want to continue | ./test_detection.sh                                          │",
+  "priority": 4,
+  "timestamp": 1750975170,
+  "created_at": "2025-06-26T21:59:30Z",
+  "status": "pending"
+}

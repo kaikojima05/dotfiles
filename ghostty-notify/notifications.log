@@ -1,0 +1,5226 @@
+2025-06-26T20:56:06Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:06 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Do you want to process this file?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:08Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:08 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "DO YOU WANT TO PROCESS the data?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:10Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:10 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Found 5 files. Do you want to process them all?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:12Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:12 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Operation in progress. Do you want to continue?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:14Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:14 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Proceed?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:17Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:16 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Continue?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:23Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:22 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Error: File not found. Do you want to process anyway?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T20:56:24Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interactive Prompt",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ⚠️  MEDIUM \n*Time:* 2025-06-27 05:56:24 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Step 1 complete. Do you want to continue?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T21:06:50Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🤔 Interactive Prompt Detected (Pattern B)",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ❌ HIGH HIGH\n*Time:* 2025-06-27 06:06:50 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Terminal session waiting for input:
+Do you want to process this file?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T21:06:51Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🤔 Interactive Prompt Detected (Pattern B)",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ❌ HIGH HIGH\n*Time:* 2025-06-27 06:06:50 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Terminal session waiting for input:
+Operation ready. Do you want to continue?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T21:06:51Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🤔 Interactive Prompt Detected (Pattern B)",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ❌ HIGH HIGH\n*Time:* 2025-06-27 06:06:51 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Terminal session waiting for input:
+Proceed?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T21:06:51Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🤔 Interactive Prompt Detected (Pattern B)",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Priority:* ❌ HIGH HIGH\n*Time:* 2025-06-27 06:06:51 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Details",
+          "emoji": true
+        },
+        "value": "view_details",
+        "action_id": "button-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Terminal session waiting for input:
+Ready to start. Continue?"
+      }
+    }
+    
+    
+  ]
+}
+2025-06-26T21:59:27Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 06:59:27 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  2. 確認: 私があなたに「Do you want to process...」と言った時\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T21:59:30Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `multiagent`\n*Pattern:* continue\n*Time:* 2025-06-27 06:59:30 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_multiagent",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n│   - echo Do you want to continue | ./test_detection.sh                                          │\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_multiagent",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_multiagent",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_multiagent",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t multiagent`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T21:59:32Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 06:59:31 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  2. 確認: 私があなたに「Do you want to process...」と言った時\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:00:08Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:00:07 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  私が今から実行許可を求めます。Do you want to process this file cleanup operation?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:00:09Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:00:08 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  私が今から実行許可を求めます。Do you want to process this file cleanup operation?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:02:00Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:02:02Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:02:05Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:02:07Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:02:07 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 検出ログを見ると、以前の「Do you want to process」は検出されていますが、最新の「Do you want to create」は検出されていませんね。\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:02:08Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:02:08 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 検出ログを見ると、以前の「Do you want to process」は検出されていますが、最新の「Do you want to create」は検出されていませんね。\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:02:11Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:02:13Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:02:15Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:02:16Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:02:18Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:02:21Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:03:07Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:03:09Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:03:12Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:03:28Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:03:30Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:03:32Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:03:35Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:35 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\necho 'Do you want to process this file? [y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:36Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:35 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Do you want to process this file? [y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:36Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:36 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nDo you want to process this file? [y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:36Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:36 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Are you sure you want to continue? (yes/no)'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:37Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:36 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nAre you sure you want to continue? (yes/no)\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:37Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* waiting for\n*Time:* 2025-06-27 07:03:37 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'waiting for user input...'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:38Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* waiting for\n*Time:* 2025-06-27 07:03:37 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nwaiting for user input...\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:38Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:38 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\necho 'Do you want to process this file? [y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:39Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:38 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Do you want to process this file? [y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:39Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:03:39 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nDo you want to process this file? [y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:40Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:39 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Are you sure you want to continue? (yes/no)'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:40Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:40 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nAre you sure you want to continue? (yes/no)\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:40Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* waiting for\n*Time:* 2025-06-27 07:03:40 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'waiting for user input...'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:41Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* waiting for\n*Time:* 2025-06-27 07:03:40 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nwaiting for user input...\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:41Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:41 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Press any key to continue'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:41Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:41 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nPress any key to continue\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:44Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Press any key to continue'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:44Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nPress any key to continue\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Build failed. Continue anyway? [Y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:45 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nBuild failed. Continue anyway? [Y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:46Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:45 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n➜  ~ echo 'Build failed. Continue anyway? [Y/n]'\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:03:46Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `ghostty-test-session`\n*Pattern:* continue\n*Time:* 2025-06-27 07:03:46 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_ghostty-test-session",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\nBuild failed. Continue anyway? [Y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_ghostty-test-session",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_ghostty-test-session",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_ghostty-test-session",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t ghostty-test-session`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:05:30Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:05:32Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:05:35Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:06:55Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:06:57Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:07:00Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:07:12Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:07:14Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:07:16Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:07:17Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:07:19Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:07:21Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:07:48Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:07:47 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n│   - echo Do you want to continue | ./test_detection.sh                                          │\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:07:58Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:07:58 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 問題が見えました。パターン設定で「Do you want to process」は設定されていますが、私の「Do you want to backup」「Do you want to delete」「Do you want to create」は 「Do you want to」\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:07:59Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to process\n*Time:* 2025-06-27 07:07:58 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 問題が見えました。パターン設定で「Do you want to process」は設定されていますが、私の「Do you want to backup」「Do you want to delete」「Do you want to create」は 「Do you want to」\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:08:01Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:04Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:06Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:06Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:08Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:11Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:11Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:13Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:16Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:16Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:17Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:18Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:19Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:21Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:21Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:22Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:24Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:27Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:27Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:29Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:32Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:32Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:34Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:36Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:37Z | FAILED (attempt 1): HTTP 400 - invalid_payload
+2025-06-26T22:08:39Z | FAILED (attempt 2): HTTP 400 - invalid_payload
+2025-06-26T22:08:42Z | FAILED (attempt 3): HTTP 400 - invalid_payload
+2025-06-26T22:08:44Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:08:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 監視システムが再起動されました！今度はより包括的な「Do you want to」パターンで検出するはずです。\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:08:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:08:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to verify the new monitoring configuration?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:08:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:08:45 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n⏺ 監視システムが再起動されました！今度はより包括的な「Do you want to」パターンで検出するはずです。\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:08:46Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:08:46 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to verify the new monitoring configuration?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:43Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:10:43 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to update the system dependencies now?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:44Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:10:43 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to create a backup before proceeding?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:44Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Are you sure\n*Time:* 2025-06-27 07:10:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Are you sure you want to delete the temporary files?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:10:44 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Would you like me to continue with the installation? [y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:45Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* continue\n*Time:* 2025-06-27 07:10:45 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Press any key to continue or Ctrl+C to abort...\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:46Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:10:45 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to update the system dependencies now?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:46Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:10:46 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to create a backup before proceeding?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:47Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Are you sure\n*Time:* 2025-06-27 07:10:46 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Are you sure you want to delete the temporary files?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:47Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* continue\n*Time:* 2025-06-27 07:10:47 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Would you like me to continue with the installation? [y/n]\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:10:48Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* continue\n*Time:* 2025-06-27 07:10:47 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Press any key to continue or Ctrl+C to abort...\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:15:01Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `0`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:15:01 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_0",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n│ Do you want to proceed?                                                                                                                                                                           │\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_0",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_0",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_0",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t 0`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:15:02Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Pattern:* Do you want to\n*Time:* 2025-06-27 07:15:02 JST"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n│ Do you want to proceed?                                                                                                                                                                           │\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:15:57Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Time:* 2025-06-27 07:15:57 JST\n\n  Do you want to test the improved notification formatting?"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n  Do you want to test the improved notification formatting?\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:18:40Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n*Time:* 2025-06-27 07:18:39 JST\n\n│ Do you want to proceed?                                                                                                                                                                           │"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "View Session",
+          "emoji": true
+        },
+        "style": "danger",
+        "value": "view_session_president",
+        "action_id": "view-session"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "```\n│ Do you want to proceed?                                                                                                                                                                           │\n```"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Connect to Session",
+            "emoji": true
+          },
+          "style": "primary",
+          "value": "connect_president",
+          "action_id": "connect-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View Full Log",
+            "emoji": true
+          },
+          "value": "view_log_president",
+          "action_id": "view-log"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Snooze 15min",
+            "emoji": true
+          },
+          "value": "snooze_president",
+          "action_id": "snooze"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "color": "#ff0000",
+      "blocks": [
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "🔗 Connect: `tmux attach-session -t president`"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+2025-06-26T22:19:32Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n\n  Do you want to test the simplified notification format?"
+      }
+    }
+  ]
+}
+2025-06-26T22:22:13Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n\n│ Do you want to proceed?                                                                                                                                                                           │"
+      }
+    }
+  ]
+}
+2025-06-26T22:22:28Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n\n  Do you want to verify the final notification format with connect command?\n\n🔗 *Connect:* `tmux attach-session -t president`"
+      }
+    }
+  ]
+}
+2025-06-26T22:27:08Z | SUCCESS: {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚨 User Input Required",
+        "emoji": true
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Session:* `president`\n\n     Claude Code用の「Do you want to」検出システム\n\n🔗 *Connect:* `tmux attach-session -t president`"
+      }
+    }
+  ]
+}

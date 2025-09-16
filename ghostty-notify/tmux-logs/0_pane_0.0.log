@@ -1,0 +1,74 @@
+        new file:   nvim/lua/plugins/error-fixes.lua
+        new file:   nvim/lua/plugins/error-free-environment.lua
+        new file:   nvim/lua/plugins/gitsigns-fixed.lua
+        new file:   nvim/lua/plugins/intellij-ui.lua
+        modified:   nvim/lua/plugins/lsp.lua
+        new file:   nvim/lua/plugins/performance-optimized.lua
+        new file:   nvim/lua/plugins/project-detector.lua
+        new file:   nvim/lua/plugins/project-management.lua
+        new file:   nvim/lua/plugins/project-management.lua.backup
+        new file:   nvim/lua/plugins/refactoring.lua
+        new file:   nvim/lua/plugins/safe-tailwind.lua
+        new file:   nvim/lua/plugins/stable-fixes.lua
+        modified:   nvim/lua/plugins/ui.lua
+        new file:   nvim/lua/util/diagnostics.lua
+        new file:   nvim/lua/util/error-prevention.lua
+        new file:   nvim/lua/util/plugin-validator.lua
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tmux/
+
+➜  .config git:(main) ✗ git commit
+[main 71a7c99] neovim の設定ファイルを更新した
+ 31 files changed, 5315 insertions(+), 85 deletions(-)
+ create mode 100644 nvim/README.md
+ delete mode 100644 nvim/echo
+ create mode 100644 nvim/lua/config/lazy-simple.lua
+ create mode 100644 nvim/lua/plugins/00-cmp-fix.lua
+ create mode 100644 nvim/lua/plugins/00-neoconf.lua
+ create mode 100644 nvim/lua/plugins/database.lua
+ create mode 100644 nvim/lua/plugins/debugging.lua
+ create mode 100644 nvim/lua/plugins/debugging.lua.backup
+ create mode 100644 nvim/lua/plugins/enhanced-lsp.lua
+ create mode 100644 nvim/lua/plugins/error-fixes.lua
+ create mode 100644 nvim/lua/plugins/error-free-environment.lua
+ create mode 100644 nvim/lua/plugins/gitsigns-fixed.lua
+ create mode 100644 nvim/lua/plugins/intellij-ui.lua
+ create mode 100644 nvim/lua/plugins/performance-optimized.lua
+ create mode 100644 nvim/lua/plugins/project-detector.lua
+ create mode 100644 nvim/lua/plugins/project-management.lua
+ create mode 100644 nvim/lua/plugins/project-management.lua.backup
+ create mode 100644 nvim/lua/plugins/refactoring.lua
+ create mode 100644 nvim/lua/plugins/safe-tailwind.lua
+ create mode 100644 nvim/lua/plugins/stable-fixes.lua
+ create mode 100644 nvim/lua/util/diagnostics.lua
+ create mode 100644 nvim/lua/util/error-prevention.lua
+ create mode 100644 nvim/lua/util/plugin-validator.lua
+➜  .config git:(main) ✗ ls -al
+total 24
+drwxr-xr-x@  17 kaikojima  staff   544 Jun 21 00:05 .
+drwxr-x---+ 124 kaikojima  staff  3968 Jun 21 00:09 ..
+-rw-r--r--@   1 kaikojima  staff  6148 May 28 11:16 .DS_Store
+drwxr-xr-x@  13 kaikojima  staff   416 Jun 21 00:09 .git
+-rw-r--r--@   1 kaikojima  staff    74 Jan  8 14:04 .gitignore
+drwxr-xr-x@   3 kaikojima  staff    96 Apr 26 01:29 ghostty
+drwx------    4 kaikojima  staff   128 Jan 14 20:27 github-copilot
+drwxrwxr-x@   3 kaikojima  staff    96 Feb 28 09:52 lazygit
+drwxrwxr-x@   7 kaikojima  staff   224 Jun 20 21:06 nvim
+drwxr-xr-x    6 kaikojima  staff   192 May  9  2024 nvim.mine
+drwxr-xr-x@   4 kaikojima  staff   128 Jan  7 13:31 television
+drwxr-xr-x    3 kaikojima  staff    96 Jun 12  2024 textualize
+drwxr-xr-x@   7 kaikojima  staff   224 Jun 17 02:29 tmux
+drwxr-xr-x@   3 kaikojima  staff    96 Apr 21  2024 Wondershare
+drwxr-xr-x@   3 kaikojima  staff    96 Sep 21  2024 yarn
+drwxr-xr-x@  11 kaikojima  staff   352 Mar 19 11:21 zed
+drwxr-xr-x@   3 kaikojima  staff    96 Mar 22 15:41 zshrc
+➜  .config git:(main) ✗ cd ghostty
+➜  ghostty git:(main) ✗ ls -al
+total 0
+drwxr-xr-x@  3 kaikojima  staff   96 Apr 26 01:29 .
+drwxr-xr-x@ 17 kaikojima  staff  544 Jun 21 00:05 ..
+lrwxr-xr-x@  1 kaikojima  staff   73 Jan  8 15:18 config -> /Users/kaikojima/Library/Application Support/com.mitchellh.ghostty/config
+➜  ghostty git:(main) ✗ vi config
+➜  ghostty git:(main) ✗

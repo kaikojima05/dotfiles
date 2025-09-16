@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TMux Monitor Dashboard</title>
+    <meta http-equiv="refresh" content="5">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #1a1a1a; color: #fff; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: #2d2d2d; padding: 20px; border-radius: 8px; text-align: center; }
+        .stat-value { font-size: 2em; font-weight: bold; color: #4CAF50; }
+        .sessions { background: #2d2d2d; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .session { padding: 10px; border-left: 4px solid #4CAF50; margin: 10px 0; background: #333; }
+        .session.detached { border-left-color: #FFC107; }
+        .detections { background: #2d2d2d; padding: 20px; border-radius: 8px; }
+        .detection { padding: 10px; border-left: 4px solid #FF5722; margin: 10px 0; background: #333; }
+        .timestamp { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 TMux Monitor Dashboard</h1>
+            <p>Real-time interactive pattern detection</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="session-count">       4</div>
+                <div>Active Sessions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="detection-count">     100</div>
+                <div>Today's Detections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">19:52</div>
+                <div>Last Update</div>
+            </div>
+        </div>
+        
+        <div class="sessions">
+            <h2>📺 TMux Sessions</h2>
+            <div class="session detached">
+<strong>0</strong> (1 windows) - 🟡 Detached
+<br><small>Connect: <code>tmux attach-session -t 0</code></small>
+</div>
+<div class="session detached">
+<strong>14</strong> (1 windows) - 🟡 Detached
+<br><small>Connect: <code>tmux attach-session -t 14</code></small>
+</div>
+<div class="session detached">
+<strong>5</strong> (1 windows) - 🟡 Detached
+<br><small>Connect: <code>tmux attach-session -t 5</code></small>
+</div>
+<div class="session detached">
+<strong>ghostty-test-session</strong> (1 windows) - 🟡 Detached
+<br><small>Connect: <code>tmux attach-session -t ghostty-test-session</code></small>
+</div>
+        </div>
+        
+        <div class="detections">
+            <h2>🎯 Recent Detections</h2>
+            
+        </div>
+    </div>
+</body>
+</html>

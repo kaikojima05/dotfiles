@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "pattern": "(fatal|panic|critical|emergency)",
+      "priority": 5,
+      "description": "Critical system errors"
+    },
+    {
+      "pattern": "(error|fail|exception)",
+      "priority": 4,
+      "description": "General errors"
+    },
+    {
+      "pattern": "(warning|warn)",
+      "priority": 3,
+      "description": "Warnings"
+    },
+    {
+      "pattern": "(success|complete|done)",
+      "priority": 2,
+      "description": "Success notifications"
+    },
+    {
+      "pattern": "(info|debug)",
+      "priority": 1,
+      "description": "Informational messages"
+    }
+  ],
+  "context_boost": {
+    "production": 1,
+    "staging": 0,
+    "development": -1
+  },
+  "time_sensitivity": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00",
+      "boost": 1
+    },
+    "quiet_hours": {
+      "start": "22:00",
+      "end": "08:00",
+      "min_priority": 4
+    }
+  }
+}

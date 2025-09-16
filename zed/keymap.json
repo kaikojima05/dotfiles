@@ -3,8 +3,6 @@
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      /** normal mode に戻る */
-      "ctrl-j ctrl-j": "vim::NormalBefore",
       /** insert mode の状態のまま1文字進む */
       "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
       /** insert mode の状態のまま1文字戻る */
@@ -24,20 +22,18 @@
       /** fold の開閉 */
       "ctrl-[": "editor::ToggleFold",
       /** error 箇所にジャンプ */
-      "E": "editor::GoToDiagnostic",
+      "; e": "editor::GoToDiagnostic",
       /** LSP のジャンプ機能 */
-      "shift-r": "editor::GoToDefinition",
+      "g h": "editor::GoToDefinition",
       /** ジャンプ元に戻る */
-      "shift-b": "pane::GoBack",
+      "g o": "pane::GoBack",
       /** ファイル検索 */
-      "space f": ["workspace::SendKeystrokes", "cmd-p"],
+      "; f": ["workspace::SendKeystrokes", "cmd-p"],
       /** 単語検索 */
-      "space r": ["workspace::SendKeystrokes", "cmd-shift-f"],
+      "; r": ["workspace::SendKeystrokes", "cmd-shift-f"],
       /** file tree を非表示にする */
       "space e": ["workspace::SendKeystrokes", "cmd-b"],
-      /** フォーマットの実行 */
-      "space space": ["workspace::SendKeystrokes", "cmd-shift-i"],
-      /** */
+      /** インレイヒントを表示する */
       "ctrl-o": "editor::ToggleInlayHints"
     }
   },
@@ -54,7 +50,7 @@
     "context": "Editor && vim_mode != insert",
     "bindings": {
       /** 戻る */
-      "ctrl-p": "search::SelectPrevMatch",
+      "ctrl-p": "search::SelectAllMatches",
       /** 進む */
       "ctrl-n": "search::SelectNextMatch"
     }

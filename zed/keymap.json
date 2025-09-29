@@ -3,6 +3,7 @@
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
+      "j j": "vim::NormalBefore",
       /** insert mode の状態のまま1文字進む */
       "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
       /** insert mode の状態のまま1文字戻る */

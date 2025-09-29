@@ -6,5 +6,6 @@ _G.dd = function(...)
 	require("util.debug").dump(...)
 end
 vim.print = _G.dd
+vim.env.XDG_STATE_HOME = '/tmp'
 
 require("config.lazy")

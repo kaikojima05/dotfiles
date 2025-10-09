@@ -32,6 +32,12 @@ vim.opt.splitright = true -- Put new windows right of current
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = "a"  -- マウス操作を有効化
 
+-- タブの可視化
+vim.opt.list = true
+vim.opt.listchars = {
+	tab = '→ ',
+}
+
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
 vim.cmd([[let &t_Ce = "\e[4:0m"]])

@@ -16,6 +16,7 @@ return {
 				"http",
 				"java",
 				"php",
+				"prisma",
 				"rust",
 				"scss",
 				"sql",

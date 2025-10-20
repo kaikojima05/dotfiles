@@ -12,3 +12,19 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.opt.conceallevel = 0
 	end,
 })
+
+-- コメント行で o/O/Enter を押したときの自動コメント挿入を無効化
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "*",
+	callback = function()
+		vim.opt.formatoptions:remove({ "r", "o" })
+	end,
+})
+
+-- Markdownファイルでfoldを無効化（Treesitterのfoldエラーを防ぐ）
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "markdown",
+	callback = function()
+		vim.opt_local.foldmethod = "manual"
+	end,
+})

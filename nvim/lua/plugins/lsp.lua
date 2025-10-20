@@ -15,6 +15,8 @@ return {
 				"tailwindcss-language-server",
 				"typescript-language-server",
 				"css-lsp",
+				"prisma-language-server",
+				"intelephense",
 			},
 		},
 		config = function(_, opts)
@@ -100,6 +102,16 @@ return {
 						json = {
 							schemas = require('schemastore').json.schemas(),
 							validate = { enable = true },
+						},
+					},
+				},
+				prismals = {},
+				intelephense = {
+					settings = {
+						intelephense = {
+							files = {
+								maxSize = 5000000,
+							},
 						},
 					},
 				},

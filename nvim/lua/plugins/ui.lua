@@ -160,7 +160,7 @@ return {
 				left_trunc_marker = "",
 				right_trunc_marker = "",
 				diagnostics = "nvim_lsp", -- LSPの診断情報を表示
-				always_show_bufferline = true, -- 常に表示
+				always_show_bufferline = false, -- バッファが2つ以上の時のみ表示
 				offsets = {
 					{
 						filetype = "neo-tree",

@@ -140,37 +140,7 @@ return {
 	-- buffer line
 	{
 		"akinsho/bufferline.nvim",
-		event = "VeryLazy",
-		keys = {
-			{ "<leader><Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next buffer" },
-			{ "<leader><S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev buffer" },
-		},
-		opts = {
-			options = {
-				mode = "buffers", -- バッファを表示するように変更
-				separator_style = "slant", -- Slanted tabsスタイルを有効化
-				show_buffer_close_icons = true,
-				show_close_icon = true,
-				close_command = "bdelete! %d",
-				right_mouse_command = "bdelete! %d",
-				middle_mouse_command = nil,
-				close_icon = "×",
-				buffer_close_icon = "×",
-				modified_icon = "●",
-				left_trunc_marker = "",
-				right_trunc_marker = "",
-				diagnostics = "nvim_lsp", -- LSPの診断情報を表示
-				always_show_bufferline = false, -- バッファが2つ以上の時のみ表示
-				offsets = {
-					{
-						filetype = "neo-tree",
-						text = "File Explorer",
-						text_align = "center",
-						separator = true,
-					},
-				},
-			},
-		},
+    enabled = false, -- bufferline.nvimを無効化
 	},
 
 	-- filename (無効化)
@@ -251,6 +221,10 @@ return {
 		"nvim-lualine/lualine.nvim",
 		opts = function(_, opts)
 			local LazyVim = require("lazyvim.util")
+
+			opts.options = opts.options or {}
+			opts.options.section_separators = { left = '' }
+
 			opts.sections.lualine_c[4] = {
 				LazyVim.lualine.pretty_path({
 					length = 0,
@@ -261,6 +235,38 @@ return {
 					modified_sign = "",
 					readonly_icon = " 󰌾 ",
 				}),
+			}
+
+			-- 上部に tabline としてバッファリストを表示
+			opts.tabline = {
+				lualine_a = {
+					{
+						'buffers',
+						show_filename_only = true,
+						hide_filename_extension = false,
+						show_modified_status = true,
+						mode = 0,
+						max_length = vim.o.columns * 2 / 3,
+						symbols = {
+							modified = ' ●',
+							alternate_file = '#',
+							directory = '',
+						},
+            separator = { right = '' },
+            left_padding = 2,
+                                    buffers_color = {
+                                active = { bg = '#58a6ff', fg = '#ffffff', gui = 'bold' },
+                                inactive = { bg = '#2d2d2d', fg = '#888888' },
+                        },
+					}
+				},
+				lualine_b = {},
+				lualine_c = {},
+				lualine_x = {},
+				lualine_y = {},
+				lualine_z = {
+					'tabs'
+				}
 			}
 		end,
 	},

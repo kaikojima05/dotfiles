@@ -90,7 +90,7 @@ return {
 	{
 		"snacks.nvim",
 		opts = {
-			indent = { enabled = true },
+			indent = { enabled = false },
 			input = { enabled = true },
 			notifier = { enabled = true },
 			picker = { enabled = true },
@@ -100,9 +100,10 @@ return {
 			toggle = { map = vim.keymap.set },
 			words = { enabled = true },
 			explorer = {
-				hidden = false,
-				show_hidden = false,
+				hidden = true,
+				show_hidden = true,
 			},
+		},
 		keys = {
 			{ "<leader>n", function()
 				local snacks = require("snacks")
@@ -139,43 +140,51 @@ return {
 	-- buffer line
 	{
 		"akinsho/bufferline.nvim",
-		event = "VeryLazy",
-		keys = {
-			{ "<leader><Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next buffer" },
-			{ "<leader><S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev buffer" },
-		},
-		opts = {
-			options = {
-				mode = "buffers", -- バッファを表示するように変更
-				separator_style = "slant", -- Slanted tabsスタイルを有効化
-				show_buffer_close_icons = true,
-				show_close_icon = true,
-				close_command = "bdelete! %d",
-				right_mouse_command = "bdelete! %d",
-				middle_mouse_command = nil,
-				close_icon = "×",
-				buffer_close_icon = "×",
-				modified_icon = "●",
-				left_trunc_marker = "",
-				right_trunc_marker = "",
-				diagnostics = "nvim_lsp", -- LSPの診断情報を表示
-				always_show_bufferline = true, -- 常に表示
-				offsets = {
-					{
-						filetype = "neo-tree",
-						text = "File Explorer",
-						text_align = "center",
-						separator = true,
-					},
-				},
-			},
-		},
+    enabled = false, -- bufferline.nvimを無効化
 	},
 
 	-- filename (無効化)
 	{
 		"b0o/incline.nvim",
 		enabled = false, -- incline.nvimを無効化
+	},
+
+	-- mini.indentscope for showing current scope only
+	{
+		"echasnovski/mini.indentscope",
+		version = false,
+		event = "LazyFile",
+		opts = {
+			symbol = "│",
+			options = { 
+				try_as_border = true,
+				border = "both",
+			},
+			draw = {
+				delay = 0,
+				animation = function() return 0 end,
+			},
+		},
+		init = function()
+			vim.api.nvim_create_autocmd("FileType", {
+				pattern = {
+					"help",
+					"alpha",
+					"dashboard",
+					"neo-tree",
+					"Trouble",
+					"trouble",
+					"lazy",
+					"mason",
+					"notify",
+					"toggleterm",
+					"lazyterm",
+				},
+				callback = function()
+					vim.b.miniindentscope_disable = true
+				end,
+			})
+		end,
 	},
 
 	-- gitsigns for showing git diff indicators
@@ -224,6 +233,18 @@ return {
 				}),
 			}
 		end,
+    opts = {
+      lualine_b = {
+        {
+          "filename",
+          file_status = true,
+          newfile_status = true,
+          path = 1,
+          shorting_target = 40,
+          symbols = { modified = "_󰷥", readonly = " ", newfile = "󰄛", unnamed = "[No Name]" },
+        }
+      }
+    }
 	},
 
 	{
@@ -241,7 +262,7 @@ return {
 
 	{
 		"MeanderingProgrammer/render-markdown.nvim",
-		enabled = false,
+		enabled = true,
 	},
 
 

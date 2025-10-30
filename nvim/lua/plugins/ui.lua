@@ -105,17 +105,25 @@ return {
 			},
 		},
 		keys = {
-			{ "<leader>n", function()
-				local snacks = require("snacks")
-				if snacks.config.picker and snacks.config.picker.enabled then
-					snacks.picker.notifications()
-				else
-					snacks.notifier.show_history()
-				end
-			end, desc = "Notification History" },
-			{ "<leader>un", function() 
-				require("snacks").notifier.hide() 
-			end, desc = "Dismiss All Notifications" },
+			{
+				"<leader>n",
+				function()
+					local snacks = require("snacks")
+					if snacks.config.picker and snacks.config.picker.enabled then
+						snacks.picker.notifications()
+					else
+						snacks.notifier.show_history()
+					end
+				end,
+				desc = "Notification History",
+			},
+			{
+				"<leader>un",
+				function()
+					require("snacks").notifier.hide()
+				end,
+				desc = "Dismiss All Notifications",
+			},
 		},
 	},
 
@@ -140,7 +148,7 @@ return {
 	-- buffer line
 	{
 		"akinsho/bufferline.nvim",
-    enabled = false, -- bufferline.nvimを無効化
+		enabled = false, -- bufferline.nvimを無効化
 	},
 
 	-- filename (無効化)
@@ -156,13 +164,15 @@ return {
 		event = "LazyFile",
 		opts = {
 			symbol = "│",
-			options = { 
+			options = {
 				try_as_border = true,
 				border = "both",
 			},
 			draw = {
 				delay = 0,
-				animation = function() return 0 end,
+				animation = function()
+					return 0
+				end,
 			},
 		},
 		init = function()
@@ -223,7 +233,7 @@ return {
 			local LazyVim = require("lazyvim.util")
 
 			opts.options = opts.options or {}
-			opts.options.section_separators = { left = '' }
+			opts.options.section_separators = { left = "" }
 
 			opts.sections.lualine_c[4] = {
 				LazyVim.lualine.pretty_path({
@@ -236,37 +246,38 @@ return {
 					readonly_icon = " 󰌾 ",
 				}),
 			}
+			opts.sections.lualine_c[5] = {}
+			opts.inactive_sections = { lualine_c = { separator = { right = "" } } }
 
 			-- 上部に tabline としてバッファリストを表示
 			opts.tabline = {
 				lualine_a = {
 					{
-						'buffers',
+						"buffers",
 						show_filename_only = true,
 						hide_filename_extension = false,
 						show_modified_status = true,
 						mode = 0,
 						max_length = vim.o.columns * 2 / 3,
 						symbols = {
-							modified = ' ●',
-							alternate_file = '#',
-							directory = '',
+							modified = " ●",
+							alternate_file = "#",
+							directory = "",
 						},
-            separator = { right = '' },
-            left_padding = 2,
-                                    buffers_color = {
-                                active = { bg = '#58a6ff', fg = '#ffffff', gui = 'bold' },
-                                inactive = { bg = '#2d2d2d', fg = '#888888' },
-                        },
-					}
+						separator = { right = "" },
+						left_padding = 2,
+						buffers_color = {
+							active = { bg = "#58a6ff", fg = "#ffffff", gui = "bold" },
+							inactive = { bg = "#2d2d2d", fg = "#888888" },
+						},
+						setions = { "error" },
+					},
 				},
 				lualine_b = {},
 				lualine_c = {},
 				lualine_x = {},
 				lualine_y = {},
-				lualine_z = {
-					'tabs'
-				}
+				lualine_z = {},
 			}
 		end,
 	},
@@ -288,7 +299,6 @@ return {
 		"MeanderingProgrammer/render-markdown.nvim",
 		enabled = true,
 	},
-
 
 	-- Enhanced which-key configuration (v3 compatible)
 	{

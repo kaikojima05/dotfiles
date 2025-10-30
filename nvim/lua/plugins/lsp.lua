@@ -60,7 +60,12 @@ return {
 				},
 				tsserver = {
 					root_dir = function(...)
-						return require("lspconfig.util").root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git")(...)
+						return require("lspconfig.util").root_pattern(
+							"package.json",
+							"tsconfig.json",
+							"jsconfig.json",
+							".git"
+						)(...)
 					end,
 					single_file_support = true,
 					settings = {
@@ -93,14 +98,14 @@ return {
 					settings = {
 						yaml = {
 							keyOrdering = false,
-							schemas = require('schemastore').yaml.schemas(),
+							schemas = require("schemastore").yaml.schemas(),
 						},
 					},
 				},
 				jsonls = {
 					settings = {
 						json = {
-							schemas = require('schemastore').json.schemas(),
+							schemas = require("schemastore").json.schemas(),
 							validate = { enable = true },
 						},
 					},
@@ -195,14 +200,14 @@ return {
 						-- Check if any LSP client supports textDocument/definition
 						local clients = vim.lsp.get_active_clients({ bufnr = 0 })
 						local has_definition = false
-						
+
 						for _, client in ipairs(clients) do
 							if client.server_capabilities.definitionProvider then
 								has_definition = true
 								break
 							end
 						end
-						
+
 						if has_definition then
 							-- Use telescope if LSP supports definition
 							require("telescope.builtin").lsp_definitions({ reuse_win = false })

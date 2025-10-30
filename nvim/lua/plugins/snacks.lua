@@ -18,11 +18,11 @@ return {
 			opts.picker = vim.tbl_deep_extend("force", opts.picker or {}, {
 				sources = {
 					explorer = {
-						hidden = true,    -- show hidden files
-						ignored = true,   -- show git ignored files
-						exclude = { "node_modules", ".git", ".vscode" },  -- exclude only node_modules
-					}
-				}
+						hidden = true, -- show hidden files
+						ignored = true, -- show git ignored files
+						exclude = { "node_modules", ".git", ".vscode" }, -- exclude only node_modules
+					},
+				},
 			})
 			return opts
 		end,
@@ -30,7 +30,7 @@ return {
 			-- Disable netrw completely
 			vim.g.loaded_netrw = 1
 			vim.g.loaded_netrwPlugin = 1
-			
+
 			-- Handle directory opening manually with a more aggressive approach
 			vim.api.nvim_create_autocmd("VimEnter", {
 				group = vim.api.nvim_create_augroup("CustomDirectoryHandler", { clear = true }),

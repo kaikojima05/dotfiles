@@ -84,6 +84,7 @@ return {
 			top_down = true,
 			render = "default",
 			fps = 60,
+      level = vim.log.levels.WARN
 		},
 	},
 

@@ -218,24 +218,14 @@ return {
 	-- statusline
 	{
 		"nvim-lualine/lualine.nvim",
+		dependencies = { "SmiteshP/nvim-navic" },
 		opts = function(_, opts)
-			local LazyVim = require("lazyvim.util")
-
 			opts.options = opts.options or {}
-			opts.options.section_separators = { left = "" }
-			opts.options.component_separators = { left = "" }
+			opts.options.section_separators = { left = " " }
+			opts.options.component_separators = { left = " " }
 
-			opts.sections.lualine_c[4] = {
-				LazyVim.lualine.pretty_path({
-					length = 0,
-					relative = "cwd",
-					modified_hl = "MatchParen",
-					directory_hl = "",
-					filename_hl = "Bold",
-					modified_sign = "",
-					readonly_icon = " 󰌾 ",
-				}),
-			}
+			opts.sections.lualine_c[1] = ""
+			opts.sections.lualine_c[4] = { "navic", color_correction = "static" }
 			opts.sections.lualine_c[5] = {}
 			opts.sections.lualine_x = {}
 			opts.sections.lualine_y = {}
@@ -252,8 +242,8 @@ return {
 						mode = 0,
 						max_length = vim.o.columns * 2 / 3,
 						symbols = {
-							modified = " ●",
-							alternate_file = "#",
+							modified = " ",
+							alternate_file = "󰒲  ",
 							directory = "",
 						},
 						separator = { right = "" },

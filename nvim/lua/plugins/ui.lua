@@ -235,6 +235,7 @@ return {
 
 			opts.options = opts.options or {}
 			opts.options.section_separators = { left = "" }
+			opts.options.component_separators = { left = "" }
 
 			opts.sections.lualine_c[4] = {
 				LazyVim.lualine.pretty_path({
@@ -248,7 +249,9 @@ return {
 				}),
 			}
 			opts.sections.lualine_c[5] = {}
-			opts.inactive_sections = { lualine_c = { separator = { right = "" } } }
+			opts.sections.lualine_x = {}
+			opts.sections.lualine_y = {}
+			opts.sections.lualine_z = {}
 
 			-- 上部に tabline としてバッファリストを表示
 			opts.tabline = {

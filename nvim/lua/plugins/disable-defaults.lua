@@ -17,5 +17,4 @@ return {
 		"b0o/incline.nvim",
 		enabled = false, -- incline.nvimを無効化
 	},
-
 }

@@ -32,25 +32,26 @@ return {
 			vim.g.loaded_netrwPlugin = 1
 
 			-- Handle directory opening manually with a more aggressive approach
-			vim.api.nvim_create_autocmd("VimEnter", {
-				group = vim.api.nvim_create_augroup("CustomDirectoryHandler", { clear = true }),
-				callback = function()
-					-- Check if we started with a directory argument
-					local args = vim.fn.argv()
-					for _, arg in ipairs(args) do
-						if vim.fn.isdirectory(arg) == 1 then
-							-- Clear all buffers and open explorer immediately
-							vim.schedule(function()
-								-- Close all buffers
-								vim.cmd("silent! %bdelete!")
-								-- Open snacks explorer
-								Snacks.explorer({ cwd = vim.fn.fnamemodify(arg, ":p") })
-							end)
-							break
-						end
-					end
-				end,
-			})
+			-- DISABLED: Auto-open explorer on directory launch
+			-- vim.api.nvim_create_autocmd("VimEnter", {
+			-- 	group = vim.api.nvim_create_augroup("CustomDirectoryHandler", { clear = true }),
+			-- 	callback = function()
+			-- 		-- Check if we started with a directory argument
+			-- 		local args = vim.fn.argv()
+			-- 		for _, arg in ipairs(args) do
+			-- 			if vim.fn.isdirectory(arg) == 1 then
+			-- 				-- Clear all buffers and open explorer immediately
+			-- 				vim.schedule(function()
+			-- 					-- Close all buffers
+			-- 					vim.cmd("silent! %bdelete!")
+			-- 					-- Open snacks explorer
+			-- 					Snacks.explorer({ cwd = vim.fn.fnamemodify(arg, ":p") })
+			-- 				end)
+			-- 				break
+			-- 			end
+			-- 		end
+			-- 	end,
+			-- })
 		end,
 		keys = {
 			{

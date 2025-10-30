@@ -69,6 +69,9 @@ keymap.set(
 	{ desc = "セミコロンは telescope で使用しているので、別のキーを割り当てる" }
 )
 
+-- terminal mode
+keymap.set("t", "jj", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+
 -- Fold toggle
 keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
 

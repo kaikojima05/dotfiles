@@ -146,18 +146,6 @@ return {
 		},
 	},
 
-	-- buffer line
-	{
-		"akinsho/bufferline.nvim",
-		enabled = false, -- bufferline.nvimを無効化
-	},
-
-	-- filename (無効化)
-	{
-		"b0o/incline.nvim",
-		enabled = false, -- incline.nvimを無効化
-	},
-
 	-- mini.indentscope for showing current scope only
 	{
 		"echasnovski/mini.indentscope",

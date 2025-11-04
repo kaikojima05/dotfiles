@@ -1,7 +1,7 @@
 return {
 	-- tools
 	{
-		"williamboman/mason.nvim",
+		"mason-org/mason.nvim",
 		cmd = "Mason",
 		keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" } },
 		build = ":MasonUpdate",
@@ -22,20 +22,30 @@ return {
 		config = function(_, opts)
 			require("mason").setup(opts)
 			local mr = require("mason-registry")
-			mr.refresh(function()
+
+			-- パッケージがインストールされるまで待つ
+			local function ensure_installed()
 				for _, tool in ipairs(opts.ensure_installed) do
 					local p = mr.get_package(tool)
 					if not p:is_installed() then
-						p:install()
+						vim.schedule(function()
+							p:install()
+						end)
 					end
 				end
-			end)
+			end
+
+			if mr.refresh then
+				mr.refresh(ensure_installed)
+			else
+				ensure_installed()
+			end
 		end,
 	},
 	{
-		"williamboman/mason-lspconfig.nvim",
+		"mason-org/mason-lspconfig.nvim",
 		dependencies = {
-			"williamboman/mason.nvim",
+			"mason-org/mason.nvim",
 		},
 		opts = {
 			automatic_installation = true,
@@ -191,36 +201,40 @@ return {
 	},
 	{
 		"neovim/nvim-lspconfig",
-		opts = function()
-			local keys = require("lazyvim.plugins.lsp.keymaps").get()
-			vim.list_extend(keys, {
-				{
-					"gd",
-					function()
-						-- Check if any LSP client supports textDocument/definition
-						local clients = vim.lsp.get_active_clients({ bufnr = 0 })
-						local has_definition = false
+		opts = {
+			servers = {
+				["*"] = {
+					keys = {
+						{
+							"gd",
+							function()
+								-- Check if any LSP client supports textDocument/definition
+								local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+								local has_definition = false
 
-						for _, client in ipairs(clients) do
-							if client.server_capabilities.definitionProvider then
-								has_definition = true
-								break
-							end
-						end
+								for _, client in ipairs(clients) do
+									if client.server_capabilities.definitionProvider then
+										has_definition = true
+										break
+									end
+								end
 
-						if has_definition then
-							-- Use telescope if LSP supports definition
-							require("telescope.builtin").lsp_definitions({ reuse_win = false })
-						else
-							-- Fallback to vim's built-in definition jump
-							vim.notify("LSP definition not available, using fallback", vim.log.levels.WARN)
-							vim.cmd("normal! gd")
-						end
-					end,
-					desc = "Goto Definition",
+								if has_definition then
+									-- Use telescope if LSP supports definition
+									require("telescope.builtin").lsp_definitions({ reuse_win = false })
+								else
+									-- Fallback to vim's built-in definition jump
+									vim.notify("LSP definition not available, using fallback", vim.log.levels.WARN)
+									vim.cmd("normal! gd")
+								end
+							end,
+							desc = "Goto Definition",
+							has = "definitionProvider",
+						},
+					},
 				},
-			})
-		end,
+			},
+		},
 	},
 
 	-- symbols outline

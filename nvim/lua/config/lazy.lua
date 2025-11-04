@@ -54,6 +54,12 @@ require("lazy").setup({
 	dev = {
 		path = "~/.ghq/github.com",
 	},
+	git = {
+		-- git hooks を無効化
+		filter = function(plugin)
+			return true
+		end,
+	},
 	checker = { enabled = true }, -- automatically check for plugin updates
 	performance = {
 		cache = {

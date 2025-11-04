@@ -3,8 +3,9 @@ return {
 
 	{
 		"nvim-treesitter/nvim-treesitter",
-		opts = {
-			ensure_installed = {
+		opts = function(_, opts)
+			opts.ensure_installed = opts.ensure_installed or {}
+			vim.list_extend(opts.ensure_installed, {
 				"astro",
 				"cmake",
 				"cpp",
@@ -21,24 +22,20 @@ return {
 				"scss",
 				"sql",
 				"svelte",
-			},
-
-			-- matchup = {
-			-- 	enable = true,
-			-- },
+			})
 
 			-- https://github.com/nvim-treesitter/playground#query-linter
-			query_linter = {
+			opts.query_linter = {
 				enable = true,
 				use_virtual_text = true,
 				lint_events = { "BufWrite", "CursorHold" },
-			},
+			}
 
-			playground = {
+			opts.playground = {
 				enable = true,
 				disable = {},
-				updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
-				persist_queries = true, -- Whether the query persists across vim sessions
+				updatetime = 25,
+				persist_queries = true,
 				keybindings = {
 					toggle_query_editor = "o",
 					toggle_hl_groups = "i",
@@ -51,11 +48,9 @@ return {
 					goto_node = "<cr>",
 					show_help = "?",
 				},
-			},
-		},
-		config = function(_, opts)
-			require("nvim-treesitter.configs").setup(opts)
-
+			}
+		end,
+		init = function()
 			-- MDX
 			vim.filetype.add({
 				extension = {

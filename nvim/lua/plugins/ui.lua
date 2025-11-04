@@ -148,7 +148,7 @@ return {
 
 	-- mini.indentscope for showing current scope only
 	{
-		"echasnovski/mini.indentscope",
+		"nvim-mini/mini.indentscope",
 		version = false,
 		event = "LazyFile",
 		opts = {
@@ -275,11 +275,6 @@ return {
 			},
 		},
 		keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
-	},
-
-	{
-		"MeanderingProgrammer/render-markdown.nvim",
-		enabled = true,
 	},
 
 	-- Enhanced which-key configuration (v3 compatible)

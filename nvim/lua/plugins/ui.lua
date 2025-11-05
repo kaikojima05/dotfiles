@@ -221,8 +221,8 @@ return {
 		dependencies = { "SmiteshP/nvim-navic" },
 		opts = function(_, opts)
 			opts.options = opts.options or {}
-			opts.options.section_separators = { left = " " }
-			opts.options.component_separators = { left = " " }
+			opts.options.section_separators = { left = " " }
+			opts.options.component_separators = { left = " " }
 
 			opts.sections.lualine_c[1] = ""
 			opts.sections.lualine_c[4] = { "navic", color_correction = "static" }
@@ -242,15 +242,14 @@ return {
 						mode = 0,
 						max_length = vim.o.columns * 2 / 3,
 						symbols = {
-							modified = " ",
-							alternate_file = "󰒲  ",
+							modified = "  ",
+              alternate_file = "",
 							directory = "",
 						},
-						separator = { right = "" },
 						left_padding = 2,
 						buffers_color = {
-							active = { bg = "#58a6ff", fg = "#ffffff", gui = "bold" },
-							inactive = { bg = "#2d2d2d", fg = "#888888" },
+							active = { fg = "#ffffff", gui = "bold" },
+							inactive = { bg = "#0d1117", fg = "#888888" },
 						},
 						setions = { "error" },
 					},

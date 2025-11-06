@@ -36,7 +36,7 @@ vim.opt.mouse = "a" -- マウス操作を有効化
 -- タブの可視化
 vim.opt.list = true
 vim.opt.listchars = {
-	tab = "→ ",
+  tab = "→ ",
 }
 
 -- Undercurl
@@ -47,17 +47,17 @@ vim.cmd([[au BufNewFile,BufRead *.astro setf astro]])
 vim.cmd([[au BufNewFile,BufRead Podfile setf ruby]])
 
 if vim.fn.has("nvim-0.8") == 1 then
-	vim.opt.cmdheight = 0
+  vim.opt.cmdheight = 0
 end
 
 -- File types
 vim.filetype.add({
-	extension = {
-		mdx = "mdx",
-		tf = "terraform",
-		tfvars = "terraform",
-		tfstate = "json",
-	},
+  extension = {
+    mdx = "mdx",
+    tf = "terraform",
+    tfvars = "terraform",
+    tfstate = "json",
+  },
 })
 
 vim.g.lazyvim_prettier_needs_config = true

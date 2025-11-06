@@ -29,22 +29,22 @@ keymap.set("n", "te", ":tabedit")
 
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
-	vim.diagnostic.goto_next()
+  vim.diagnostic.goto_next()
 end, opts)
 keymap.set("n", "<C-k>", function()
-	vim.diagnostic.goto_prev()
+  vim.diagnostic.goto_prev()
 end, opts)
 
 -- LSP
 keymap.set("n", "gh", vim.lsp.buf.hover, { desc = "LSP Hover" })
 keymap.set("n", "go", function()
-	-- Force use vim.lsp.buf.definition (without telescope)
-	local clients = vim.lsp.get_active_clients({ bufnr = 0 })
-	if #clients > 0 then
-		vim.lsp.buf.definition()
-	else
-		vim.notify("No LSP client attached", vim.log.levels.WARN)
-	end
+  -- Force use vim.lsp.buf.definition (without telescope)
+  local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+  if #clients > 0 then
+    vim.lsp.buf.definition()
+  else
+    vim.notify("No LSP client attached", vim.log.levels.WARN)
+  end
 end, { desc = "LSP Go to Definition (native)" })
 
 -- Search optimization
@@ -63,10 +63,10 @@ keymap.set("n", "tp", ":bprevious<CR>", { noremap = true, silent = true })
 keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
 
 keymap.set(
-	"n",
-	"<C-;>",
-	";",
-	{ desc = "セミコロンは telescope で使用しているので、別のキーを割り当てる" }
+  "n",
+  "<C-;>",
+  ";",
+  { desc = "セミコロンは telescope で使用しているので、別のキーを割り当てる" }
 )
 
 -- terminal mode
@@ -77,13 +77,13 @@ keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
 
 -- functions
 keymap.set("n", "<leader>r", function()
-	require("user.hsl").replaceHexWithHSL()
+  require("user.hsl").replaceHexWithHSL()
 end)
 
 keymap.set("n", "<leader>i", function()
-	require("user.lsp").toggleInlayHints()
+  require("user.lsp").toggleInlayHints()
 end)
 
 vim.api.nvim_create_user_command("ToggleAutoformat", function()
-	require("user.lsp").toggleAutoformat()
+  require("user.lsp").toggleAutoformat()
 end, {})

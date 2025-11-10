@@ -1,5 +1,5 @@
 return {
-  -- tools
+  -- TODO: Mason やめる
   {
     "mason-org/mason.nvim",
     cmd = "Mason",
@@ -43,14 +43,13 @@ return {
   },
   {
     "mason-org/mason-lspconfig.nvim",
-    dependencies = {
-      "mason-org/mason.nvim",
-    },
-    opts = {
-      automatic_installation = true,
-    },
-    config = function(_, opts)
-      require("mason-lspconfig").setup(opts)
+    opts = function(_, opts)
+      -- LazyVim のデフォルト設定を保持しつつ、TypeScript サーバーを除外
+      opts.handlers = opts.handlers or {}
+      -- TypeScript 関連サーバーは起動しない
+      opts.handlers["ts_ls"] = function() end
+      opts.handlers["vtsls"] = function() end
+      opts.handlers["tsserver"] = function() end
     end,
   },
 
@@ -61,10 +60,21 @@ return {
       inlay_hints = { enabled = false },
       ---@type lspconfig.options
       servers = {
+        -- Disable TypeScript LSP servers (use typescript-tools.nvim instead)
+        tsserver = {
+          enabled = false,
+        },
+        ts_ls = {
+          enabled = false,
+        },
+        vtsls = {
+          enabled = false,
+        },
         cssls = {},
         tailwindcss = {
-          root_dir = function(...)
-            return require("lspconfig.util").root_pattern(".git")(...)
+          root_dir = function(fname)
+            local util = require("lspconfig.util")
+            return util.root_pattern("app.css")(fname)
           end,
         },
         html = {},
@@ -158,45 +168,55 @@ return {
               },
             },
           },
-        },
-      },
-      setup = {},
-    },
-  },
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        ["*"] = {
-          keys = {
-            {
-              "gd",
-              function()
-                -- Check if any LSP client supports textDocument/definition
-                local clients = vim.lsp.get_active_clients({ bufnr = 0 })
-                local has_definition = false
+          ["*"] = {
+            keys = {
+              {
+                "gd",
+                function()
+                  -- Check if any LSP client supports textDocument/definition
+                  local clients = vim.lsp.get_active_clients({ bufnr = 0 })
+                  local has_definition = false
 
-                for _, client in ipairs(clients) do
-                  if client.server_capabilities.definitionProvider then
-                    has_definition = true
-                    break
+                  for _, client in ipairs(clients) do
+                    if client.server_capabilities.definitionProvider then
+                      has_definition = true
+                      break
+                    end
                   end
-                end
 
-                if has_definition then
-                  -- Use telescope if LSP supports definition
-                  require("telescope.builtin").lsp_definitions({ reuse_win = false })
-                else
-                  -- Fallback to vim's built-in definition jump
-                  vim.notify("LSP definition not available, using fallback", vim.log.levels.WARN)
-                  vim.cmd("normal! gd")
-                end
-              end,
-              desc = "Goto Definition",
-              has = "definitionProvider",
+                  if has_definition then
+                    -- Use telescope if LSP supports definition
+                    require("telescope.builtin").lsp_definitions({ reuse_win = false })
+                  else
+                    -- Fallback to vim's built-in definition jump
+                    vim.notify("LSP definition not available, using fallback", vim.log.levels.WARN)
+                    vim.cmd("normal! gd")
+                  end
+                end,
+                desc = "Goto Definition",
+                has = "definitionProvider",
+              },
             },
           },
         },
+      },
+      setup = {
+        -- Disable TypeScript LSP servers (use typescript-tools.nvim instead)
+        tsserver = function()
+          return true -- return true to prevent default setup
+        end,
+        ts_ls = function()
+          return true -- return true to prevent default setup
+        end,
+        vtsls = function()
+          return true -- return true to prevent default setup
+        end,
+        -- tailwindcss setup
+        tailwindcss = function(_, opts)
+          opts.filetypes = opts.filetypes or {}
+          -- Add default filetypes
+          vim.list_extend(opts.filetypes, vim.lsp.config.tailwindcss.filetypes or {})
+        end,
       },
     },
   },

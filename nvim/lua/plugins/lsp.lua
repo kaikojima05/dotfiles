@@ -50,6 +50,12 @@ return {
       opts.handlers["ts_ls"] = function() end
       opts.handlers["vtsls"] = function() end
       opts.handlers["tsserver"] = function() end
+
+      -- ensure_installed に tailwindcss を追加
+      opts.ensure_installed = opts.ensure_installed or {}
+      if not vim.tbl_contains(opts.ensure_installed, "tailwindcss") then
+        table.insert(opts.ensure_installed, "tailwindcss")
+      end
     end,
   },
 
@@ -72,10 +78,18 @@ return {
         },
         cssls = {},
         tailwindcss = {
-          root_dir = function(fname)
-            local util = require("lspconfig.util")
-            return util.root_pattern("app.css")(fname)
-          end,
+          filetypes = {
+            "html",
+            "css",
+            "scss",
+            "sass",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "svelte",
+            "vue",
+          },
         },
         html = {},
         yamlls = {
@@ -210,12 +224,6 @@ return {
         end,
         vtsls = function()
           return true -- return true to prevent default setup
-        end,
-        -- tailwindcss setup
-        tailwindcss = function(_, opts)
-          opts.filetypes = opts.filetypes or {}
-          -- Add default filetypes
-          vim.list_extend(opts.filetypes, vim.lsp.config.tailwindcss.filetypes or {})
         end,
       },
     },

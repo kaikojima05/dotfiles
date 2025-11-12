@@ -189,12 +189,18 @@ return {
           theme = "dropdown",
           -- disables netrw and use telescope-file-browser in its place
           hijack_netrw = false,
+          display_stat = false, -- アイコン表示を snacks.nvim explorer と統一
           mappings = {
             -- your custom insert mode mappings
             ["n"] = {
               -- your custom normal mode mappings
-              ["N"] = fb_actions.create,
+              ["a"] = fb_actions.create,
+              ["r"] = fb_actions.rename,
+              ["d"] = fb_actions.remove,
+              ["m"] = fb_actions.move,
+              ["c"] = fb_actions.copy,
               ["h"] = fb_actions.goto_parent_dir,
+              ["l"] = actions.select_default,
               ["/"] = function()
                 vim.cmd("startinsert")
               end,

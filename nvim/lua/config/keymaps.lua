@@ -7,8 +7,8 @@ keymap.set("i", "jj", "<ESC>", { silent = true })
 keymap.set("i", "<C-l>", "<ESC>la", {})
 keymap.set("i", "<C-h>", "<ESC>i", {})
 
-keymap.set("n", "<Space>h", "^", {})
-keymap.set("n", "<Space>l", "$", {})
+keymap.set({ "n", "v" }, "<Space>h", "^", {})
+keymap.set({ "n", "v" }, "<Space>l", "$", {})
 keymap.set("n", "x", '"_x')
 
 -- toggle buffer

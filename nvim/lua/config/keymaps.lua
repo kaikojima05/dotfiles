@@ -28,10 +28,10 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 keymap.set("n", "te", ":tabedit")
 
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
+keymap.set("n", "<C-n>", function()
   vim.diagnostic.goto_next()
 end, opts)
-keymap.set("n", "<C-k>", function()
+keymap.set("n", "<C-p>", function()
   vim.diagnostic.goto_prev()
 end, opts)
 
@@ -74,6 +74,10 @@ keymap.set("t", "jj", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- Fold toggle
 keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
+
+-- Scroll half page
+keymap.set("n", "<C-j>", "<C-d>", { noremap = true, silent = true })
+keymap.set("n", "<C-k>", "<C-u>", { noremap = true, silent = true })
 
 -- functions
 keymap.set("n", "<leader>r", function()

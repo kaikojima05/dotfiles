@@ -89,10 +89,16 @@ return {
         desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
       },
       {
-        "\\\\",
+        "<leader>bl",
         function()
           local builtin = require("telescope.builtin")
-          builtin.buffers()
+          local actions = require("telescope.actions")
+          builtin.buffers({
+            attach_mappings = function(_, map)
+              map('n', 'd', actions.delete_buffer)
+              return true
+            end
+          })
         end,
         desc = "Lists open buffers",
       },

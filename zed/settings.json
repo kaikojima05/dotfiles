@@ -7,10 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  /** フォーマットを手動実行にする */
+  "outline_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "default_width": 150.0,
+    "indent_size": 10.0,
+    "dock": "left"
+  },
   "context_servers": {
     "mcp-server-context7": {
-      "source": "extension",
       "enabled": true,
       "settings": {
         "default_minimum_tokens": "10000"
@@ -18,11 +24,7 @@
     }
   },
   "base_keymap": "VSCode",
-  "icon_theme": {
-    "mode": "dark",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
-  },
+  "icon_theme": "Zed (Default)",
   "ssh_connections": [
     {
       "host": "35.206.235.138",
@@ -34,52 +36,32 @@
       ]
     }
   ],
-  /** フォントの設定 */
   "format_on_save": "off",
-  /** 自動更新を有効にする */
   "show_edit_predictions": true,
   "auto_update": true,
-  "theme": {
-    "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "Github Plus Dark"
-  },
-  /** vim mode を有効にする */
+  "theme": "Github Dark Dimmed",
   "vim_mode": true,
-  /** font-size */
-  "ui_font_size": 16.0,
-  "buffer_font_size": 14.0,
-  "ui_font_family": "PlemolJP Console NF",
-  "buffer_font_family": "PlemolJP Console NF",
-  /** 非アクティブなパネルの透明度 */
-  /** カーソルがある行からの相対的な行数を表示する */
-  "relative_line_numbers": true,
-  /** ターミナルの設定 */
+  "ui_font_size": 13.0,
+  "buffer_font_size": 13.0,
   "terminal": {
-    /** ツールバーのパンくずを非表示にする */
-    "toolbar": {
-      "breadcrumbs": false
-    }
+    "default_height": 500.0,
+    "font_size": 13.0
   },
-  /** インレイヒントを表示する */
   "inlay_hints": {
     "enabled": false,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
   },
+  "show_whitespaces":"all",
+  "whitespace_map": {
+    "space": " ",
+    "tab": "→"
+  },
   "lsp": {
     "biome": {
       "settings": {
         "require_config_file": true
-      }
-    },
-    "typos": {
-      "initialization_options": {
-        "config": "/Users/kaikojima/.config/zed/.typos.toml",
-        "path": "/opt/homebrew/bin/typos-lsp",
-        "diagnosticSeverity": "Error",
-        "trace.server": "off"
       }
     }
   }

@@ -8,12 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   /** フォーマットを手動実行にする */
-  "base_keymap": "VSCode",
-  "icon_theme": {
-    "mode": "dark",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
+  "context_servers": {
+    "mcp-server-context7": {
+      "source": "extension",
+      "enabled": true,
+      "settings": {
+        "default_minimum_tokens": "10000"
+      }
+    }
   },
+  "base_keymap": "VSCode",
+  "icon_theme": "Zed (Default)",
   "ssh_connections": [
     {
       "host": "35.206.235.138",
@@ -28,33 +33,22 @@
   /** フォントの設定 */
   "format_on_save": "off",
   /** 自動更新を有効にする */
-  "show_inline_completions": true,
+  "show_edit_predictions": true,
   "auto_update": true,
-  "theme": {
-    "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "One Dark"
-  },
+  "theme": "One Dark",
   /** vim mode を有効にする */
   "vim_mode": true,
   /** font-size */
-  "ui_font_size": 15.0,
-  "buffer_font_size": 15.0,
-  /** font family を JetBrainsMono Nerd Font にする */
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
   "ui_font_family": "PlemolJP Console NF",
-  "terminal_font_family": "PlemolJP Console NF",
   "buffer_font_family": "PlemolJP Console NF",
-  //"buffer_font_family": "JetBrainsMono Nerd Font",
   /** 非アクティブなパネルの透明度 */
-  "inactive_opacity": 0.7,
   /** カーソルがある行からの相対的な行数を表示する */
   "relative_line_numbers": true,
   /** ターミナルの設定 */
   "terminal": {
-    /** ツールバーのパンくずを非表示にする */
-    "toolbar": {
-      "breadcrumbs": false
-    }
+    "font_size": 12.0
   },
   /** インレイヒントを表示する */
   "inlay_hints": {

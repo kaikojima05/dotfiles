@@ -4,6 +4,9 @@ return {
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
   },
+  enabled = function()
+    return vim.g.neovide == nil
+  end,
   opts = {
     backend = "kitty", -- Ghostty は Kitty プロトコルをサポート
     integrations = {

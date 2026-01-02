@@ -4,8 +4,8 @@ local opts = { noremap = true, silent = true }
 -- discipline.cowboy()
 
 keymap.set("i", "jj", "<ESC>", { silent = true })
-keymap.set("i", "<C-l>", "<ESC>la", {})
-keymap.set("i", "<C-h>", "<ESC>i", {})
+keymap.set("i", "<C-l>", "<Right>", {})
+keymap.set("i", "<C-h>", "<Left>", {})
 
 keymap.set({ "n", "v" }, "<Space>h", "^", {})
 keymap.set({ "n", "v" }, "<Space>l", "$", {})
@@ -76,8 +76,8 @@ keymap.set("t", "jj", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
 
 -- Scroll half page
-keymap.set("n", "<C-j>", "<C-d>", { noremap = true, silent = true })
-keymap.set("n", "<C-k>", "<C-u>", { noremap = true, silent = true })
+keymap.set("n", "J", "<C-d>", { noremap = true, silent = true })
+keymap.set("n", "K", "<C-u>", { noremap = true, silent = true })
 
 -- functions
 keymap.set("n", "<leader>r", function()

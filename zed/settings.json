@@ -7,24 +7,41 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "restore_on_file_reopen": false,
+  "restore_on_startup": "empty_tab",
+  "agent": {
+    "default_profile": "write",
+    "default_model": {
+      "provider": "ollama",
+      "model": "gemini-3-pro-preview:latest"
+    },
+    "model_parameters": []
+  },
   "outline_panel": {
     "dock": "right"
   },
   "project_panel": {
-    "default_width": 150.0,
+    "default_width": 250.0,
     "indent_size": 10.0,
-    "dock": "left"
+    "dock": "left",
+    "starts_open": false
   },
   "context_servers": {
+    "serena-context-server": {
+      "enabled": true,
+      "settings": {
+        "python_executable": null
+      }
+    },
     "mcp-server-context7": {
       "enabled": true,
       "settings": {
-        "default_minimum_tokens": "10000"
+        "context7_api_key": ""
       }
     }
   },
   "base_keymap": "VSCode",
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "JetBrains New UI Icons (Dark)",
   "ssh_connections": [
     {
       "host": "35.206.235.138",
@@ -41,10 +58,10 @@
   "auto_update": true,
   "theme": "Github Dark Dimmed",
   "vim_mode": true,
-  "ui_font_size": 13.0,
+  "ui_font_size": 16.0,
   "buffer_font_size": 13.0,
   "terminal": {
-    "default_height": 500.0,
+    "default_height": 400.0,
     "font_size": 13.0
   },
   "inlay_hints": {
@@ -64,5 +81,5 @@
         "require_config_file": true
       }
     }
-  }
+  },
 }

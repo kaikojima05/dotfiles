@@ -5,22 +5,25 @@
     "bindings": {
       // insert mode を抜ける
       "j j": "vim::NormalBefore",
-      // insert mode の状態のまま1文字進む
-      "ctrl-l": ["workspace::SendKeystrokes", "escape l a"],
-      // insert mode の状態のまま1文字戻る
-      "ctrl-h": ["workspace::SendKeystrokes", "escape i"]
-    }
+      // insert mode のまま1文字進む
+      "ctrl-l": ["workspace::SendKeystrokes", "right"],
+      // insert mode のまま1文字戻る
+      "ctrl-h": ["workspace::SendKeystrokes", "left"],
+
+      // グローバルの設定を上書きする
+      "space b l": null,
+      "space f": null,
+    },
   },
   /** normal mode */
   {
     "context": "Editor && vim_mode == normal && !menu",
     "bindings": {
       /** 移動 */
-      "ctrl-j": ["workspace::SendKeystrokes", "2 0 j"],
-      "ctrl-k": ["workspace::SendKeystrokes", "2 0 k"],
+      "shift-j": ["workspace::SendKeystrokes", "2 0 j"],
+      "shift-k": ["workspace::SendKeystrokes", "2 0 k"],
       "space h": ["workspace::SendKeystrokes", "^"],
       "space l": "editor::MoveToEndOfLine",
-      "space c f": "editor::Format",
       "ctrl-w h": ["workspace::SendKeystrokes", "ctrl-w h escape"],
       "ctrl-w l": ["workspace::SendKeystrokes", "ctrl-w l escape"],
 
@@ -28,17 +31,7 @@
       "shift-y": ["workspace::SendKeystrokes", "y $"],
 
       /** LSP */
-      "space e": "editor::GoToDiagnostic",
-      "g h": "editor::GoToDefinition",
-      "g o": "pane::GoBack",
-
-      /** 検索 */
-      "space f": ["workspace::SendKeystrokes", "cmd-p"],
-      "space r": ["workspace::SendKeystrokes", "cmd-shift-f"],
-      "space s": ["workspace::SendKeystrokes", "cmd-shift-o"], // cmd-r でアウトラインパネルを閉じる
-
-      /** プロジェクトパネル */
-      "space p": ["workspace::SendKeystrokes", "cmd-b escape"],
+      "shift-e": "editor::GoToDiagnostic",
 
       /** タブ移動 */
       "t n": "pane::ActivateNextItem",
@@ -48,41 +41,56 @@
       "ctrl-i": "editor::ToggleInlayHints",
 
       /** フォールド */
-      "ctrl-]": "editor::ToggleFold"
-    }
+      "ctrl-]": "editor::ToggleFold",
+
+      /** フォーマット */
+      "space c f": "editor::Format",
+
+      /** toggl */
+      "space e": "workspace::ToggleLeftDock",
+      "space r": "workspace::ToggleRightDock",
+      "ctrl-t": "terminal_panel::Toggle"
+    },
   },
   /** visual mode */
   {
     "context": "Editor && vim_mode == visual && !menu",
     "bindings": {
       /** ペースト時にレジスタを汚さない */
-      "p": ["workspace::SendKeystrokes", "\" _ d shift-p"]
-    }
+      "p": ["workspace::SendKeystrokes", "\" _ d shift-p"],
+    },
   },
   /** 一致検索 */
   {
-    "context": "Editor && vim_mode != insert",
+    "context": "Editor && vim_mode != insert && !menu",
     "bindings": {
       /** 移動 */
-      "ctrl-p": "search::SelectAllMatches",
-      "ctrl-n": "search::SelectNextMatch"
-    }
+      "ctrl-j": ["workspace::SendKeystrokes", "down"],
+      "ctrl-k": ["workspace::SendKeystrokes", "up"],
+    },
+  },
+  /** 一致検索 */
+  {
+    "context": "VimControl",
+    "bindings": {
+      /** 移動 */
+      "shift-n": "search::SelectPreviousMatch",
+      "n": "search::SelectNextMatch",
+    },
   },
   /** プロジェクトパネル */
   {
     "context": "ProjectPanel && not_editing",
     "bindings": {
-      /** フォーカス */
-      "ctrl-l": "editor::ToggleFocus",
-
       /** ディレクトリ・ファイル操作 */
       "f": "project_panel::NewDirectory",
       "a": "project_panel::NewFile",
       "c": "project_panel::Copy",
       "p": "project_panel::Paste",
       "r": "project_panel::Rename",
-      "d": "project_panel::Delete"
-    }
+      "d": "project_panel::Delete",
+      "l": ["workspace::SendKeystrokes", "Enter"],
+    },
   },
   /** ターミナル */
   {
@@ -91,11 +99,40 @@
       /** フォーカス */
       "ctrl-w k": "editor::ToggleFocus",
 
-      /** タブ */
-      "cmd-t": "workspace::NewTerminal",
-
       /** 開閉 */
-      "cmd-c": "terminal_panel::Toggle"
+      "ctrl-t": "terminal_panel::Toggle",
+    },
+  },
+  /** dock */
+  {
+    "context": "Dock && !Terminal",
+    "bindings": {
+      /** toggl dock */
+      "space e": "workspace::ToggleLeftDock",
     }
-  }
+  },
+  {
+    "context": "Dock && vim_mode == normal",
+    "bindings": {
+      /** toggl dock */
+      "space r": "workspace::ToggleRightDock"
+    }
+  },
+  /** -- ここまで --*/
+  {
+    "context": "Workspace",
+    "bindings": {
+      /** tab switcher */
+      "space b l": "tab_switcher::Toggle",
+      /** file finder */
+      "space f": "file_finder::Toggle",
+    }
+  },
+  {
+    "context": "TabSwitcher",
+    "bindings": {
+      "ctrl-j": ["workspace::SendKeystrokes", "down"],
+      "ctrl-k": ["workspace::SendKeystrokes", "up"],
+    }
+  },
 ]

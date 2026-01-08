@@ -1,7 +1,7 @@
 [
   /** insert mode */
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "vim_mode == insert",
     "bindings": {
       // insert mode を抜ける
       "j j": "vim::NormalBefore",
@@ -11,8 +11,14 @@
       "ctrl-h": ["workspace::SendKeystrokes", "left"],
 
       // グローバルの設定を上書きする
+      "space h": null,
+      "space l": null,
+      "space c f": null,
+      "space r": null,
       "space b l": null,
       "space f": null,
+      "space e": null,
+      "ctrl-t": null,
     },
   },
   /** normal mode */
@@ -47,9 +53,11 @@
       "space c f": "editor::Format",
 
       /** toggl */
-      "space e": "workspace::ToggleLeftDock",
       "space r": "workspace::ToggleRightDock",
-      "ctrl-t": "terminal_panel::Toggle"
+
+      /** 変更箇所へのジャンプ */
+      "ctrl-h": "editor::GoToNextChange",
+      "ctrl-l": "editor::GoToPreviousChange",
     },
   },
   /** visual mode */
@@ -126,6 +134,9 @@
       "space b l": "tab_switcher::Toggle",
       /** file finder */
       "space f": "file_finder::Toggle",
+      /** dock */
+      "space e": "workspace::ToggleLeftDock",
+      "ctrl-t": "terminal_panel::Toggle",
     }
   },
   {

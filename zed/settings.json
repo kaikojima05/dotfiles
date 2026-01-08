@@ -58,7 +58,7 @@
   "auto_update": true,
   "theme": "Github Dark Dimmed",
   "vim_mode": true,
-  "ui_font_size": 16.0,
+  "ui_font_size": 14.0,
   "buffer_font_size": 13.0,
   "terminal": {
     "default_height": 400.0,

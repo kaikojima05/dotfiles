@@ -37,7 +37,7 @@
       "shift-y": ["workspace::SendKeystrokes", "y $"],
 
       /** LSP */
-      "shift-e": "editor::GoToDiagnostic",
+      "ctrl-e": "editor::GoToDiagnostic",
 
       /** タブ移動 */
       "t n": "pane::ActivateNextItem",

@@ -21,9 +21,6 @@ keymap.set("n", "<Leader>a", "gg<S-v>G")
 keymap.set("n", "<Leader>o", "o<Esc>^Da", opts)
 keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
 
--- Jumplist
-keymap.set("n", "<C-m>", "<C-i>", opts)
-
 -- New tab
 keymap.set("n", "te", ":tabedit")
 
@@ -60,10 +57,6 @@ keymap.set("n", "N", "Nzzzv", { desc = "Previous search result (centered)" })
 -- Quick buffer navigation
 keymap.set("n", "<leader>bd", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
 keymap.set("n", "<leader>ba", "<cmd>%bdelete|edit#|bdelete#<cr>", { desc = "Delete all buffer current" })
-
--- toggle buffer
-keymap.set("n", "tn", ":bnext<CR>", { noremap = true, silent = true })
-keymap.set("n", "tp", ":bprevious<CR>", { noremap = true, silent = true })
 
 -- paste action related
 keymap.set("v", "p", '"_dP', { noremap = true, silent = true })

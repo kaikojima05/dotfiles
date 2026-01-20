@@ -8,6 +8,13 @@ return {
         options = {
           transparent = true,
         },
+        groups = {
+          all = {
+            -- フローティングウィンドウに背景色を設定
+            NormalFloat = { bg = "#2d333b" },
+            FloatBorder = { fg = "#545d68", bg = "#2d333b" },
+          },
+        },
       })
     end,
   },

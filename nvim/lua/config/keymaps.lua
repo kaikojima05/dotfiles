@@ -36,7 +36,13 @@ keymap.set("n", "<C-p>", function()
 end, opts)
 
 -- LSP
-keymap.set("n", "gh", vim.lsp.buf.hover, { desc = "LSP Hover" })
+keymap.set("n", "gh", function()
+  vim.lsp.buf.hover({
+    border = "rounded",
+    max_width = 80,
+    max_height = 20,
+  })
+end, { desc = "LSP Hover" })
 keymap.set("n", "go", function()
   -- Force use vim.lsp.buf.definition (without telescope)
   local clients = vim.lsp.get_active_clients({ bufnr = 0 })

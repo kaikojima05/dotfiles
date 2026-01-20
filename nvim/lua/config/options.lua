@@ -63,3 +63,33 @@ vim.filetype.add({
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.lazyvim_picker = "telescope"
 vim.g.lazyvim_cmp = "blink.cmp"
+
+-- FloatBorder の背景を透明に（境界線の外側に色がはみ出ないように）
+vim.api.nvim_create_autocmd("ColorScheme", {
+  callback = function()
+    local border_fg = vim.api.nvim_get_hl(0, { name = "FloatBorder" }).fg
+    vim.api.nvim_set_hl(0, "FloatBorder", { fg = border_fg, bg = "NONE" })
+  end,
+})
+-- 初回ロード時にも適用
+local border_fg = vim.api.nvim_get_hl(0, { name = "FloatBorder" }).fg or 0x545A68
+vim.api.nvim_set_hl(0, "FloatBorder", { fg = border_fg, bg = "NONE" })
+
+-- Floating window (hover など) で markdown のコードフェンスを非表示
+vim.api.nvim_create_autocmd("BufWinEnter", {
+  callback = function(args)
+    local win = vim.fn.bufwinid(args.buf)
+    if win ~= -1 then
+      local win_config = vim.api.nvim_win_get_config(win)
+      if win_config.relative ~= "" then
+        vim.schedule(function()
+          if vim.api.nvim_win_is_valid(win) then
+            vim.wo[win].conceallevel = 2
+            vim.wo[win].concealcursor = "niv"
+          end
+        end)
+      end
+    end
+  end,
+})
+

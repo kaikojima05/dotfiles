@@ -11,6 +11,15 @@ return {
         opts = { skip = true },
       })
 
+      -- lazy.nvim の Plugin 関連通知をスキップ
+      table.insert(opts.routes, {
+        filter = {
+          event = "notify",
+          find = "lazy.nvim",
+        },
+        opts = { skip = true },
+      })
+
       local focused = true
 
       vim.api.nvim_create_autocmd("FocusGained", {
@@ -50,16 +59,6 @@ return {
         view = "notify",
       }
 
-      opts.views = {
-        notify = {
-          backend = "notify",
-          opts = {
-            stages = "slide",
-            fps = 60,
-          },
-        },
-      }
-
       vim.api.nvim_create_autocmd("FileType", {
         pattern = "markdown",
         callback = function(event)
@@ -69,7 +68,33 @@ return {
         end,
       })
 
+      -- presets を初期化してから設定
+      opts.presets = opts.presets or {}
       opts.presets.lsp_doc_border = true
+
+      -- LSP を Noice でオーバーライド
+      opts.lsp = opts.lsp or {}
+      opts.lsp.override = {
+        ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
+        ["vim.lsp.util.stylize_markdown"] = false, -- ネイティブ hover を使うため無効化
+        ["cmp.entry.get_documentation"] = true,
+      }
+      opts.lsp.hover = {
+        enabled = false, -- ネイティブ LSP handler を使用
+      }
+      opts.lsp.signature = {
+        enabled = true,
+      }
+
+      -- views をマージ（上書きしない）
+      opts.views = opts.views or {}
+      opts.views.notify = {
+        backend = "notify",
+        opts = {
+          stages = "slide",
+          fps = 60,
+        },
+      }
     end,
     dependencies = {
       "rcarriga/nvim-notify",

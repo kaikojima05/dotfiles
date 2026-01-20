@@ -338,6 +338,8 @@ return {
     "folke/trouble.nvim",
     cmd = "Trouble",
     keys = {
+      -- LazyVim デフォルトの symbols キーを無効化（g. で Telescope を使用）
+      { "<leader>cs", false },
       {
         "<leader>xx",
         "<cmd>Trouble diagnostics toggle<cr>",
@@ -352,11 +354,6 @@ return {
         "<leader>xf",
         "<cmd>Trouble diagnostics focus<cr>",
         desc = "Focus Trouble diagnostics window",
-      },
-      {
-        "<leader>cs",
-        "<cmd>Trouble symbols toggle focus=false<cr>",
-        desc = "Symbols (Trouble)",
       },
       {
         "<leader>cl",

@@ -60,7 +60,7 @@ require("lazy").setup({
       return true
     end,
   },
-  checker = { enabled = true }, -- automatically check for plugin updates
+  checker = { enabled = false }, -- 自動更新チェックは無効
   performance = {
     cache = {
       enabled = true,

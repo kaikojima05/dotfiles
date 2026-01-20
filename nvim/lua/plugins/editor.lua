@@ -369,6 +369,31 @@ return {
     },
   },
 
+  -- vim-visual-multi (VSCode-like multi-cursor)
+  {
+    "mg979/vim-visual-multi",
+    branch = "master",
+    event = "VeryLazy",
+    init = function()
+      -- VSCode-like keymaps
+      vim.g.VM_maps = {
+        ["Find Under"] = "<D-d>", -- cmd+d: select word under cursor
+        ["Find Subword Under"] = "<D-d>", -- cmd+d: select subword
+        ["Add Cursor Down"] = "", -- disabled (use Ctrl-v + j/k instead)
+        ["Add Cursor Up"] = "", -- disabled (use Ctrl-v + j/k instead)
+        ["Select All"] = "", -- disable default
+        ["Start Regex Search"] = "", -- disable default
+        ["Visual Regex"] = "", -- disable default
+        ["Visual All"] = "", -- disable default
+        ["Visual Cursors"] = "", -- disable default
+      }
+      vim.g.VM_theme = "iceblue"
+      -- Don't show warnings
+      vim.g.VM_silent_exit = 1
+      vim.g.VM_show_warnings = 0
+    end,
+  },
+
   -- Project management
   {
     "ahmedkhalf/project.nvim",

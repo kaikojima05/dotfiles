@@ -91,3 +91,7 @@ end)
 vim.api.nvim_create_user_command("ToggleAutoformat", function()
   require("user.lsp").toggleAutoformat()
 end, {})
+
+-- vim-visual-multi: Map escape sequences from Ghostty
+-- Cmd+D (sent as \x1b[100;9u from Ghostty)
+keymap.set({ "n", "v" }, "\x1b[100;9u", "<Plug>(VM-Find-Under)", { remap = true })

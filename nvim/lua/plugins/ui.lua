@@ -11,13 +11,13 @@ return {
         opts = { skip = true },
       })
 
-      -- lazy.nvim の Plugin 関連通知をスキップ
+      -- lazy.nvim 通知: 表示するが履歴には残さない
       table.insert(opts.routes, {
         filter = {
           event = "notify",
           find = "lazy.nvim",
         },
-        opts = { skip = true },
+        opts = { history = false },
       })
 
       local focused = true

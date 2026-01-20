@@ -90,7 +90,7 @@ keymap.set("n", "<leader>r", function()
   require("user.hsl").replaceHexWithHSL()
 end)
 
-keymap.set("n", "<leader>i", function()
+keymap.set("n", "<C-i>", function()
   require("user.lsp").toggleInlayHints()
 end)
 

@@ -80,6 +80,13 @@ return {
         desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
       },
       {
+        "g.",
+        function()
+          require("telescope.builtin").lsp_document_symbols()
+        end,
+        desc = "Search symbols in current buffer",
+      },
+      {
         "<leader>bl",
         function()
           local builtin = require("telescope.builtin")

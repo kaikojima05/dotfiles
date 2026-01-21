@@ -54,6 +54,9 @@ return {
       -- })
     end,
     keys = {
+      -- LazyVim デフォルトを無効化
+      { "<leader>fE", false },
+      { "<leader>E", false },
       {
         "<leader>fe",
         function()
@@ -61,15 +64,7 @@ return {
         end,
         desc = "Explorer Snacks (root dir)",
       },
-      {
-        "<leader>fE",
-        function()
-          Snacks.explorer()
-        end,
-        desc = "Explorer Snacks (cwd)",
-      },
       { "<leader>e", "<leader>fe", desc = "Explorer Snacks (root dir)", remap = true },
-      { "<leader>E", "<leader>fE", desc = "Explorer Snacks (cwd)", remap = true },
     },
   },
 }

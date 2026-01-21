@@ -17,10 +17,6 @@ keymap.set("n", "tp", ":bprevious<CR>", { noremap = true, silent = true })
 
 keymap.set("n", "<Leader>a", "gg<S-v>G")
 
--- Disable continuations
-keymap.set("n", "<Leader>o", "o<Esc>^Da", opts)
-keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
-
 -- New tab
 keymap.set("n", "te", ":tabedit")
 
@@ -40,15 +36,6 @@ keymap.set("n", "gh", function()
     max_height = 20,
   })
 end, { desc = "LSP Hover" })
-keymap.set("n", "go", function()
-  -- Force use vim.lsp.buf.definition (without telescope)
-  local clients = vim.lsp.get_active_clients({ bufnr = 0 })
-  if #clients > 0 then
-    vim.lsp.buf.definition()
-  else
-    vim.notify("No LSP client attached", vim.log.levels.WARN)
-  end
-end, { desc = "LSP Go to Definition (native)" })
 
 -- Search optimization
 keymap.set("n", "n", "nzzzv", { desc = "Next search result (centered)" })
@@ -61,28 +48,17 @@ keymap.set("n", "<leader>ba", "<cmd>%bdelete|edit#|bdelete#<cr>", { desc = "Dele
 -- paste action related
 keymap.set("v", "p", '"_dP', { noremap = true, silent = true })
 
-keymap.set(
-  "n",
-  "<C-;>",
-  ";",
-  { desc = "セミコロンは telescope で使用しているので、別のキーを割り当てる" }
-)
-
 -- terminal mode
 keymap.set("t", "jj", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- Fold toggle
-keymap.set("n", "<C-[>", "za", { desc = "Toggle fold" })
+keymap.set("n", "<C-]>", "za", { desc = "Toggle fold" })
 
 -- Scroll half page
-keymap.set("n", "J", "<C-d>", { noremap = true, silent = true })
-keymap.set("n", "K", "<C-u>", { noremap = true, silent = true })
+keymap.set("n", "<C-j>", "<C-d>", { noremap = true, silent = true })
+keymap.set("n", "<C-k>", "<C-u>", { noremap = true, silent = true })
 
 -- functions
-keymap.set("n", "<leader>r", function()
-  require("user.hsl").replaceHexWithHSL()
-end)
-
 keymap.set("n", "<C-i>", function()
   require("user.lsp").toggleInlayHints()
 end)

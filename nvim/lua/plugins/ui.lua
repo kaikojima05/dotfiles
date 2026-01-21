@@ -11,6 +11,15 @@ return {
         opts = { skip = true },
       })
 
+      -- tailwindcss が callHierarchy をサポートしないエラーを無視
+      table.insert(opts.routes, {
+        filter = {
+          event = "notify",
+          find = "Unhandled method callHierarchy",
+        },
+        opts = { skip = true },
+      })
+
       -- lazy.nvim 通知: 表示するが履歴には残さない
       table.insert(opts.routes, {
         filter = {
@@ -288,18 +297,8 @@ return {
     end,
   },
 
-  {
-    "folke/zen-mode.nvim",
-    cmd = "ZenMode",
-    opts = {
-      plugins = {
-        gitsigns = true,
-        tmux = true,
-        kitty = { enabled = false, font = "+2" },
-      },
-    },
-    keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
-  },
+  -- zen-mode を無効化
+  { "folke/zen-mode.nvim", enabled = false },
 
   -- Enhanced which-key configuration (v3 compatible)
   {
@@ -307,24 +306,6 @@ return {
     event = "VeryLazy",
     opts = {
       plugins = { spelling = true },
-      spec = {
-        { "g", group = "+goto" },
-        { "gz", group = "+surround" },
-        { "]", group = "+next" },
-        { "[", group = "+prev" },
-        { "<leader><tab>", group = "+tabs" },
-        { "<leader>b", group = "+buffer" },
-        { "<leader>c", group = "+code" },
-        { "<leader>f", group = "+file/find" },
-        { "<leader>g", group = "+git" },
-        { "<leader>gh", group = "+hunks" },
-        { "<leader>q", group = "+quit/session" },
-        { "<leader>s", group = "+search" },
-        { "<leader>t", group = "+toggle" },
-        { "<leader>u", group = "+ui" },
-        { "<leader>w", group = "+windows" },
-        { "<leader>x", group = "+diagnostics/quickfix" },
-      },
     },
   },
 }

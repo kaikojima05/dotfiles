@@ -3,7 +3,7 @@ return {
   {
     "mason-org/mason.nvim",
     cmd = "Mason",
-    keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" } },
+    keys = { { "<leader>cm", false } }, -- LazyVim デフォルトを無効化
     build = ":MasonUpdate",
     opts = {
       ensure_installed = {
@@ -89,6 +89,11 @@ return {
             "typescriptreact",
             "svelte",
             "vue",
+          },
+          -- callHierarchy 非対応のエラーを抑制
+          handlers = {
+            ["callHierarchy/incomingCalls"] = function() end,
+            ["callHierarchy/outgoingCalls"] = function() end,
           },
         },
         html = {},

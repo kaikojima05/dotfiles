@@ -13,27 +13,6 @@ return {
     },
   },
 
-  {
-    "nvim-mini/mini.hipatterns",
-    event = "BufReadPre",
-    opts = {
-      highlighters = {
-        hsl_color = {
-          pattern = "hsl%(%d+,? %d+%%?,? %d+%%?%)",
-          group = function(_, match)
-            local utils = require("user.hsl")
-            --- @type string, string, string
-            local nh, ns, nl = match:match("hsl%((%d+),? (%d+)%%?,? (%d+)%%?%)")
-            --- @type number?, number?, number?
-            local h, s, l = tonumber(nh), tonumber(ns), tonumber(nl)
-            --- @type string
-            local hex_color = utils.hslToHex(h, s, l)
-            return MiniHipatterns.compute_hex_color_group(hex_color, "bg")
-          end,
-        },
-      },
-    },
-  },
 
   {
     "dinhhuy258/git.nvim",
@@ -100,46 +79,8 @@ return {
         end,
         desc = "Lists open buffers",
       },
-      {
-        "<leader>t",
-        function()
-          local builtin = require("telescope.builtin")
-          builtin.help_tags()
-        end,
-        desc = "Lists available help tags and opens a new window with the relevant help info on <cr>",
-      },
-      {
-        "<leader><leader>",
-        function()
-          local builtin = require("telescope.builtin")
-          builtin.resume()
-        end,
-        desc = "Resume the previous telescope picker",
-      },
-      {
-        "<leader>d",
-        function()
-          local builtin = require("telescope.builtin")
-          builtin.diagnostics()
-        end,
-        desc = "Lists Diagnostics for all open buffers or a specific buffer",
-      },
-      {
-        "<leader>s",
-        function()
-          local builtin = require("telescope.builtin")
-          builtin.treesitter()
-        end,
-        desc = "Lists Function names, variables, from Treesitter",
-      },
-      {
-        "<leader>c",
-        function()
-          local builtin = require("telescope.builtin")
-          builtin.lsp_incoming_calls()
-        end,
-        desc = "Lists LSP incoming calls for word under the cursor",
-      },
+      -- LazyVim デフォルトを無効化
+      { "<leader>d", false },
       {
         "sf",
         function()
@@ -296,39 +237,11 @@ return {
     event = { "BufReadPost", "BufNewFile" },
     config = true,
     keys = {
+      -- LazyVim デフォルトを無効化
       {
-        "]t",
-        function()
-          require("todo-comments").jump_next()
-        end,
-        desc = "Next todo comment",
-      },
-      {
-        "[t",
-        function()
-          require("todo-comments").jump_prev()
-        end,
-        desc = "Previous todo comment",
-      },
-      {
-        "<leader>xt",
+        "<leader>tl",
         "<cmd>TodoTrouble<cr>",
         desc = "Todo (Trouble)",
-      },
-      {
-        "<leader>xT",
-        "<cmd>TodoTrouble keywords=TODO,FIX,FIXME<cr>",
-        desc = "Todo/Fix/Fixme (Trouble)",
-      },
-      {
-        "<leader>st",
-        "<cmd>TodoTelescope<cr>",
-        desc = "Todo",
-      },
-      {
-        "<leader>sT",
-        "<cmd>TodoTelescope keywords=TODO,FIX,FIXME<cr>",
-        desc = "Todo/Fix/Fixme",
       },
     },
   },
@@ -339,36 +252,10 @@ return {
     cmd = "Trouble",
     keys = {
       -- LazyVim デフォルトの symbols キーを無効化（g. で Telescope を使用）
-      { "<leader>cs", false },
       {
-        "<leader>xx",
-        "<cmd>Trouble diagnostics toggle<cr>",
-        desc = "Diagnostics (Trouble)",
-      },
-      {
-        "<leader>xX",
-        "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
-        desc = "Buffer Diagnostics (Trouble)",
-      },
-      {
-        "<leader>xf",
+        "<leader>d",
         "<cmd>Trouble diagnostics focus<cr>",
         desc = "Focus Trouble diagnostics window",
-      },
-      {
-        "<leader>cl",
-        "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
-        desc = "LSP Definitions / references / ... (Trouble)",
-      },
-      {
-        "<leader>xL",
-        "<cmd>Trouble loclist toggle<cr>",
-        desc = "Location List (Trouble)",
-      },
-      {
-        "<leader>xQ",
-        "<cmd>Trouble qflist toggle<cr>",
-        desc = "Quickfix List (Trouble)",
       },
     },
   },

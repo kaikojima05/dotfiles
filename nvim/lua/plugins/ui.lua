@@ -247,6 +247,10 @@ return {
       current_line_blame = false, -- Toggle with `:Gitsigns toggle_current_line_blame`
       attach_to_untracked = true,
     },
+    keys = {
+      { "<C-=>", function() require("gitsigns").next_hunk() end, desc = "Next Hunk" },
+      { "<C-->", function() require("gitsigns").preview_hunk() end, desc = "Preview Hunk" },
+    },
   },
 
   -- statusline

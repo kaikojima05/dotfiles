@@ -182,27 +182,7 @@ return {
     },
   },
 
-  {
-    "saghen/blink.cmp",
-    opts = {
-      completion = {
-        menu = {
-          winblend = vim.o.pumblend,
-        },
-      },
-      signature = {
-        window = {
-          winblend = vim.o.pumblend,
-        },
-      },
-      keymap = {
-        preset = "default",
-        ["<Tab>"] = { "snippet_forward", "fallback" },
-        ["<S-Tab>"] = { "snippet_backward", "fallback" },
-        ["<CR>"] = { "accept", "fallback" },
-      },
-    },
-  },
+  { "saghen/blink.cmp", enabled = false },
 
   -- Bigfile handling
   {

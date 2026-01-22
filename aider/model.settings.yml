@@ -1,0 +1,27 @@
+- name: github_copilot/gpt-5-mini
+  extra_params:
+    extra_headers:
+      Editor-Version: vscode/1.95.3
+      Editor-Plugin-Version: copilot/1.241.0
+      User-Agent: GithubCopilot/1.241.0
+    max_input_tokens: 400000
+    max_output_tokens: 128000
+
+- name: github_copilot/gpt-5
+  extra_params:
+    extra_headers:
+      Editor-Version: vscode/1.95.3
+      Editor-Plugin-Version: copilot/1.241.0
+      User-Agent: GithubCopilot/1.241.0
+    max_input_tokens: 400000
+    max_output_tokens: 128000
+
+- name: github_copilot/gpt-5.2
+  extra_params:
+    extra_headers:
+      Editor-Version: vscode/1.95.3
+      Editor-Plugin-Version: copilot/1.241.0
+      User-Agent: GithubCopilot/1.241.0
+    max_input_tokens: 400000
+    max_output_tokens: 128000
+

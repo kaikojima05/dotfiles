@@ -62,7 +62,7 @@ vim.filetype.add({
 
 vim.g.lazyvim_prettier_needs_config = true
 vim.g.lazyvim_picker = "telescope"
-vim.g.lazyvim_cmp = "blink.cmp"
+vim.g.lazyvim_cmp = "nvim-cmp"
 
 -- FloatBorder の背景を透明に（境界線の外側に色がはみ出ないように）
 vim.api.nvim_create_autocmd("ColorScheme", {

@@ -1,7 +1,0 @@
-model-settings-file: /Users/kaikojima/.config/aider/model.settings.yml
-model: github_copilot/gpt-5-mini
-dark-mode: true
-code-theme: monokai
-chat-language: 古いネットスラングを多用するうざい2ちゃんねらー
-auto-commits: false
-attribute-author: true

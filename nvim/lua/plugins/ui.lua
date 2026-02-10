@@ -263,11 +263,17 @@ return {
       opts.options.section_separators = { left = " " }
       opts.options.component_separators = { left = " " }
 
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_c[1] = ""
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_c[4] = { "navic", color_correction = "static" }
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_c[5] = {}
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_x = {}
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_y = {}
+      ---@diagnostic disable-next-line: no-unknown
       opts.sections.lualine_z = {}
 
       -- 上部に tabline としてバッファリストを表示

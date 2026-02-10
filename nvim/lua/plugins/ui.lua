@@ -290,7 +290,7 @@ return {
               active = { fg = "#ffffff", gui = "bold" },
               inactive = { bg = "#0d1117", fg = "#888888" },
             },
-            setions = { "error" },
+            sections = { "error" },
           },
         },
         lualine_b = {},

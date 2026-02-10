@@ -247,10 +247,34 @@ return {
       word_diff = false, -- Toggle with `:Gitsigns toggle_word_diff`
       current_line_blame = false, -- Toggle with `:Gitsigns toggle_current_line_blame`
       attach_to_untracked = true,
-    },
-    keys = {
-      { "<C-=>", function() require("gitsigns").next_hunk() end, desc = "Next Hunk" },
-      { "<C-->", function() require("gitsigns").preview_hunk() end, desc = "Preview Hunk" },
+      on_attach = function(bufnr)
+        local gs = package.loaded.gitsigns
+
+        local function map(mode, l, r, opts)
+          opts = opts or {}
+          opts.buffer = bufnr
+          vim.keymap.set(mode, l, r, opts)
+        end
+
+        -- Navigation
+        map("n", "<leader>n", function()
+          if vim.wo.diff then
+            vim.cmd.normal({ "]c", bang = true })
+          else
+            gs.nav_hunk("next", { preview = true })
+          end
+        end, { desc = "Next Hunk & Preview" })
+
+        map("n", "<leader>p", function()
+          if vim.wo.diff then
+            vim.cmd.normal({ "[c", bang = true })
+          else
+            gs.nav_hunk("prev", { preview = true })
+          end
+        end, { desc = "Prev Hunk & Preview" })
+
+        map("n", "<leader>gh", gs.preview_hunk, { desc = "Preview Hunk" })
+      end,
     },
   },
 

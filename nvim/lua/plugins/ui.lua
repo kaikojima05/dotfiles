@@ -141,9 +141,10 @@ return {
     },
     keys = {
       {
-        "<leader>n",
+        "<leader>sn",
         function()
           local snacks = require("snacks")
+          ---@diagnostic disable-next-line: undefined-field
           if snacks.config.picker and snacks.config.picker.enabled then
             snacks.picker.notifications()
           else

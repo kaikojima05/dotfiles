@@ -257,7 +257,7 @@ return {
         end
 
         -- Navigation
-        map("n", "<leader>n", function()
+        map("n", "<leader>gn", function()
           if vim.wo.diff then
             vim.cmd.normal({ "]c", bang = true })
           else
@@ -265,7 +265,7 @@ return {
           end
         end, { desc = "Next Hunk & Preview" })
 
-        map("n", "<leader>p", function()
+        map("n", "<leader>gp", function()
           if vim.wo.diff then
             vim.cmd.normal({ "[c", bang = true })
           else
